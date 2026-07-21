@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Experiencia Completa - EOLOS DESIGN LAB</title>
+<meta name="description" content="Espacio, marca y digital disenados como una sola experiencia. Un equipo, un calendario, una apertura. Interiorismo, identidad y web para negocios en Madrid.">
+<link rel="canonical" href="https://eolos.es/experiencia-completa/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.dark-hero{background:#0a0a0a;padding:calc(var(--nav-h) + 80px) 6vw 80px;display:grid;grid-template-columns:58fr 42fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+@media(max-width:800px){.dark-hero{grid-template-columns:1fr;padding-top:calc(var(--nav-h) + 48px)}}
+.dark-hero-text{color:#fff}
+.dark-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.dark-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,48px);line-height:1.08;font-weight:700;margin-bottom:24px;color:#fff}
+.dark-hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.dark-hero-img img{width:100%;border-radius:10px;display:block}
+@media(max-width:800px){.dark-hero-img{order:-1}}
+.benefits-section{padding:88px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);text-align:center;margin-bottom:16px}
+.benefits-section h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,40px);text-align:center;margin-bottom:56px;max-width:720px;margin-left:auto;margin-right:auto}
+.benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+@media(max-width:700px){.benefits-grid{grid-template-columns:1fr}}
+.benefit-card{padding:32px 28px;background:var(--surface);border:1px solid var(--border);border-radius:12px}
+.benefit-card h3{font-size:15px;font-weight:700;margin-bottom:12px}
+.benefit-card p{font-size:14px;color:var(--ink-muted);line-height:1.65}
+.steps-section{background:#0a0a0a;padding:88px 6vw}
+.steps-inner{max-width:1100px;margin:0 auto}
+.steps-section .section-kicker{color:#888}
+.steps-section h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,40px);color:#fff;text-align:center;margin-bottom:64px}
+.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:800px){.steps-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.steps-grid{grid-template-columns:1fr}}
+.step-item{border-left:1px solid rgba(255,255,255,0.1);padding:32px 24px}
+.step-item:first-child{border-left:none}
+@media(max-width:800px){.step-item:nth-child(odd){border-left:none}}
+.step-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:2px;color:#c8a96e;margin-bottom:16px}
+.step-item h3{font-size:15px;font-weight:700;color:#fff;margin-bottom:10px}
+.step-item p{font-size:13px;color:#888;line-height:1.6}
+.levels-section{padding:88px 6vw;background:var(--bg)}
+.levels-inner{max-width:1100px;margin:0 auto}
+.levels-section h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,40px);text-align:center;margin-bottom:16px}
+.levels-sub{text-align:center;color:var(--ink-mid);font-size:clamp(14px,1.2vw,17px);max-width:640px;margin:0 auto 64px;line-height:1.7}
+.levels-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+@media(max-width:700px){.levels-grid{grid-template-columns:1fr}}
+.level-card{padding:40px 32px;border-right:1px solid var(--border);position:relative}
+.level-card:last-child{border-right:none}
+@media(max-width:700px){.level-card{border-right:none;border-bottom:1px solid var(--border)}}
+@media(max-width:700px){.level-card:last-child{border-bottom:none}}
+.level-card.featured{background:#0a0a0a;color:#fff}
+.level-badge{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#c8a96e;margin-bottom:12px}
+.level-card h3{font-family:'DM Serif Display',serif;font-size:clamp(18px,1.8vw,24px);margin-bottom:12px}
+.level-card.featured h3{color:#fff}
+.level-desc{font-size:14px;color:var(--ink-mid);line-height:1.65;margin-bottom:20px}
+.level-card.featured .level-desc{color:#bbb}
+.level-items{font-size:13px;color:var(--ink-muted);line-height:1.8;margin-bottom:24px}
+.level-card.featured .level-items{color:#888}
+.btn-outline{display:inline-block;padding:10px 20px;border:1px solid currentColor;color:var(--ink);font-size:13px;font-weight:600;text-decoration:none;border-radius:4px;transition:all .2s}
+.btn-outline:hover{background:var(--ink);color:#fff}
+.level-card.featured .btn-outline{color:#c8a96e;border-color:#c8a96e}
+.level-card.featured .btn-outline:hover{background:#c8a96e;color:#000}
+.contact-cta{background:#f5f4f1;padding:88px 6vw}
+.contact-cta-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:45fr 55fr;gap:72px;align-items:start}
+@media(max-width:768px){.contact-cta-inner{grid-template-columns:1fr;gap:40px}}
+.cta-copy-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.contact-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.4vw,36px);line-height:1.2;margin-bottom:20px}
+.contact-cta .cta-body{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:24px}
+.cta-form-placeholder{background:var(--surface);border-radius:var(--radius);padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:220px;text-align:center;gap:16px;border:1px solid var(--border)}
+.cta-form-placeholder p{font-size:14px;color:var(--ink-muted)}
+.btn-dark{display:inline-block;padding:13px 26px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px}
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+</style>
+</head>
+<body>
+
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<section style="background:#0a0a0a;padding-top:var(--nav-h)">
+  <div class="dark-hero">
+    <div class="dark-hero-text">
+      <p class="dark-kicker" data-es="Experiencia Completa" data-en="Complete Experience">Experiencia Completa</p>
+      <h1 data-es="Espacio, marca y digital disenados como una sola experiencia." data-en="Space, brand and digital designed as one single experience.">Espacio, marca y digital disenados como una sola experiencia.</h1>
+      <p class="dark-hero-lead" data-es="Cuando abres un negocio, el cliente no separa el espacio fisico de la marca, ni la marca de la web. Disenamos los tres con el mismo equipo, una direccion comun y un calendario pensado para avanzar sin friccion." data-en="When you open a business, the client does not separate the physical space from the brand, nor the brand from the web. We design all three with the same team, a common direction and a calendar built to move without friction.">Cuando abres un negocio, el cliente no separa el espacio fisico de la marca, ni la marca de la web. Disenamos los tres con el mismo equipo, una direccion comun y un calendario pensado para avanzar sin friccion.</p>
+      <a href="#contacto" class="btn-gold" data-es="Reservar consulta gratuita" data-en="Book a free consultation">Reservar consulta gratuita</a>
+    </div>
+    <div class="dark-hero-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/33-experiencia-completa-madrid.webp" alt="Experiencia Completa" loading="lazy" width="800" height="640">
+    </div>
+  </div>
+</section>
+
+<section class="benefits-section">
+  <p class="section-kicker" data-es="Por que un equipo en lugar de tres" data-en="Why one team instead of three">Por que un equipo en lugar de tres</p>
+  <h2 data-es="Menos friccion, mejores decisiones, un solo interlocutor." data-en="Less friction, better decisions, one point of contact.">Menos friccion, mejores decisiones, un solo interlocutor.</h2>
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <h3 data-es="Coordinacion eliminada" data-en="Coordination eliminated">Coordinacion eliminada</h3>
+      <p data-es="Interiorismo, marca y web avanzan con una misma direccion, un calendario comun y menos friccion entre proveedores." data-en="Interior design, brand and web move with one direction, a shared calendar and less friction between suppliers.">Interiorismo, marca y web avanzan con una misma direccion, un calendario comun y menos friccion entre proveedores.</p>
+    </div>
+    <div class="benefit-card">
+      <h3 data-es="Un briefing, no tres" data-en="One briefing, not three">Un briefing, no tres</h3>
+      <p data-es="Una reunion. El mismo equipo en la sala. Lo que decide la marca informa el espacio y la web desde el dia uno." data-en="One meeting. The same team in the room. What the brand decides informs space and web from day one.">Una reunion. El mismo equipo en la sala. Lo que decide la marca informa el espacio y la web desde el dia uno.</p>
+    </div>
+    <div class="benefit-card">
+      <h3 data-es="Compra solo lo que necesitas" data-en="Buy only what you need">Compra solo lo que necesitas</h3>
+      <p data-es="Servicios independientes o experiencia completa. El nivel de intervencion se define segun el proyecto." data-en="Independent services or complete experience. The level of involvement is defined per project.">Servicios independientes o experiencia completa. El nivel de intervencion se define segun el proyecto.</p>
+    </div>
+  </div>
+</section>
+
+<section class="steps-section">
+  <div class="steps-inner">
+    <p class="section-kicker" data-es="Como trabajamos" data-en="How we work">Como trabajamos</p>
+    <h2 data-es="Tres componentes, un calendario, una apertura." data-en="Three components, one calendar, one opening.">Tres componentes, un calendario, una apertura.</h2>
+    <div class="steps-grid">
+      <div class="step-item">
+        <p class="step-num">01</p>
+        <h3 data-es="Briefing integrado" data-en="Integrated briefing">Briefing integrado</h3>
+        <p data-es="Una reunion, tres componentes, el mismo equipo. Definimos objetivos, mercado y direccion estetica de una vez." data-en="One meeting, three components, the same team. We define objectives, market and aesthetic direction in one go.">Una reunion, tres componentes, el mismo equipo. Definimos objetivos, mercado y direccion estetica de una vez.</p>
+      </div>
+      <div class="step-item">
+        <p class="step-num">02</p>
+        <h3 data-es="Direccion creativa cruzada" data-en="Cross creative direction">Direccion creativa cruzada</h3>
+        <p data-es="Lo que decide la marca informa el espacio y la web. Y al reves. Colores, materiales y tono son la misma decision." data-en="What the brand decides informs space and web. And vice versa. Colours, materials and tone are the same decision.">Lo que decide la marca informa el espacio y la web. Y al reves. Colores, materiales y tono son la misma decision.</p>
+      </div>
+      <div class="step-item">
+        <p class="step-num">03</p>
+        <h3 data-es="Produccion en paralelo" data-en="Parallel production">Produccion en paralelo</h3>
+        <p data-es="Interiorismo, marca y web se producen en paralelo, no en serie. Por eso cabe en 10-14 semanas." data-en="Interior design, brand and web are produced in parallel, not in series. That is why it fits in 10-14 weeks.">Interiorismo, marca y web se producen en paralelo, no en serie. Por eso cabe en 10-14 semanas.</p>
+      </div>
+      <div class="step-item">
+        <p class="step-num">04</p>
+        <h3 data-es="Apertura sincronizada" data-en="Synchronised opening">Apertura sincronizada</h3>
+        <p data-es="El dia que abres, espacio, marca y web estan listos. No uno tras otro." data-en="The day you open, space, brand and web are ready. Not one after another.">El dia que abres, espacio, marca y web estan listos. No uno tras otro.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="levels-section">
+  <div class="levels-inner">
+    <p class="section-kicker" data-es="Elige el nivel de intervencion" data-en="Choose your level of involvement">Elige el nivel de intervencion</p>
+    <h2 data-es="Cada servicio puede contratarse de forma independiente." data-en="Each service can be contracted independently.">Cada servicio puede contratarse de forma independiente.</h2>
+    <p class="levels-sub" data-es="Cuando se combinan, trabajan con una misma direccion, calendario y criterio." data-en="When combined, they work with the same direction, calendar and criteria.">Cuando se combinan, trabajan con una misma direccion, calendario y criterio.</p>
+    <div class="levels-grid">
+      <div class="level-card">
+        <p class="level-badge" data-es="Solo Marca" data-en="Brand only">Solo Marca</p>
+        <h3 data-es="Identidad de marca" data-en="Brand identity">Identidad de marca</h3>
+        <p class="level-desc" data-es="Para negocios con espacio ya resuelto que necesitan una identidad solida antes de abrir o relanzar." data-en="For businesses with space already sorted that need a solid identity before opening or relaunching.">Para negocios con espacio ya resuelto que necesitan una identidad solida antes de abrir o relanzar.</p>
+        <p class="level-items" data-es="Identidad visual, naming, sistema grafico, manual. Research, aplicaciones base y manual de marca." data-en="Visual identity, naming, graphic system, manual. Research, base applications and brand manual.">Identidad visual, naming, sistema grafico, manual. Research, aplicaciones base y manual de marca.</p>
+        <a href="/branding-madrid/" class="btn-outline" data-es="Ver servicio" data-en="See service">Ver servicio</a>
+      </div>
+      <div class="level-card featured">
+        <p class="level-badge" data-es="El mas contratado" data-en="Most contracted">El mas contratado</p>
+        <h3 data-es="Experiencia Completa" data-en="Complete Experience">Experiencia Completa</h3>
+        <p class="level-desc" data-es="Espacio + Marca + Digital. Un equipo, un calendario. La opcion mas contratada para aperturas y reposicionamientos." data-en="Space + Brand + Digital. One team, one calendar. The most contracted option for openings and repositioning.">Espacio + Marca + Digital. Un equipo, un calendario. La opcion mas contratada para aperturas y reposicionamientos.</p>
+        <p class="level-items" data-es="Arquitectura de interiores comercial + visualizacion 3D. Identidad visual + manual de marca + aplicaciones. Diseno web, copy y presencia digital en produccion." data-en="Commercial interior architecture + 3D visualisation. Visual identity + brand manual + applications. Web design, copy and digital presence in production.">Arquitectura de interiores comercial + visualizacion 3D. Identidad visual + manual de marca + aplicaciones. Diseno web, copy y presencia digital en produccion.</p>
+        <a href="#contacto" class="btn-outline" data-es="Reservar consulta" data-en="Book consultation">Reservar consulta</a>
+      </div>
+      <div class="level-card">
+        <p class="level-badge" data-es="Solo Digital" data-en="Digital only">Solo Digital</p>
+        <h3 data-es="Presencia digital" data-en="Digital presence">Presencia digital</h3>
+        <p class="level-desc" data-es="Para negocios con marca y espacio definidos que necesitan presencia digital al nivel del activo fisico." data-en="For businesses with brand and space defined that need digital presence at the level of the physical asset.">Para negocios con marca y espacio definidos que necesitan presencia digital al nivel del activo fisico.</p>
+        <p class="level-items" data-es="Diseno web, copy estrategico, fotografia dirigida. Integraciones de reservas o CRM si aplica." data-en="Web design, strategic copy, directed photography. Booking or CRM integrations if applicable.">Diseno web, copy estrategico, fotografia dirigida. Integraciones de reservas o CRM si aplica.</p>
+        <a href="/diseno-web-madrid/" class="btn-outline" data-es="Ver servicio" data-en="See service">Ver servicio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta" id="contacto">
+  <div class="contact-cta-inner">
+    <div>
+      <p class="cta-copy-kicker" data-es="Hablemos" data-en="Let's talk">Hablemos</p>
+      <h2 data-es="Cuentanoslo en 15 minutos." data-en="Tell us in 15 minutes.">Cuentanoslo en 15 minutos.</h2>
+      <p class="cta-body" data-es="Hablamos de tu proyecto: tipo de negocio, metros y lo que necesita cambiar. Te decimos que es posible y a que coste. Primera consulta gratuita." data-en="We talk about your project: business type, square metres and what needs to change. We tell you what is possible and at what cost. First consultation free.">Hablamos de tu proyecto: tipo de negocio, metros y lo que necesita cambiar. Te decimos que es posible y a que coste. Primera consulta gratuita.</p>
+    </div>
+    <div class="cta-form-placeholder">
+      <p data-es="El formulario estara disponible en breve." data-en="The form will be available soon.">El formulario estara disponible en breve.</p>
+      <a href="mailto:info@eolos.es" class="btn-dark">info@eolos.es</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>

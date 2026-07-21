@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arquitectos - EOLOS DESIGN LAB</title>
+<meta name="description" content="Conoce al equipo detras de EOLOS. Dolores y Dimitrios lideran un estudio de arquitectura comercial con criterio tecnico, vision creativa y proyectos entregados en Madrid, Barcelona y mercados internacionales.">
+<link rel="canonical" href="https://eolos.es/arquitectos/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+
+/* hero */
+.hero{padding:calc(var(--nav-h) + 80px) 6vw 80px;text-align:center;background:var(--surface)}
+.hero-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);margin-bottom:20px}
+.hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,4vw,52px);line-height:1.15;max-width:760px;margin:0 auto 20px}
+.hero-lead{font-size:clamp(15px,1.4vw,18px);color:var(--ink-mid);max-width:560px;margin:0 auto}
+
+/* team */
+.team{padding:80px 6vw;max-width:1100px;margin:0 auto}
+.team-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+@media(max-width:700px){.team-grid{grid-template-columns:1fr;gap:48px}}
+.team-card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius)}
+.team-card h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.2vw,30px);margin-top:24px;margin-bottom:4px}
+.team-card .role{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ink-muted);margin-bottom:16px}
+.team-card p{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:12px}
+
+/* equipos section */
+.equipos{padding:80px 6vw;background:var(--surface)}
+.equipos-inner{max-width:1100px;margin:0 auto}
+.equipos h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,40px);text-align:center;margin-bottom:12px}
+.equipos-lead{text-align:center;color:var(--ink-mid);font-size:15px;margin-bottom:56px;max-width:600px;margin-left:auto;margin-right:auto}
+.equipos-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+@media(max-width:900px){.equipos-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.equipos-grid{grid-template-columns:1fr}}
+.equipo-card{background:var(--bg);border-radius:var(--radius);padding:28px 24px}
+.equipo-card h3{font-size:15px;font-weight:700;margin-bottom:8px}
+.equipo-card p{font-size:13px;color:var(--ink-muted);line-height:1.6}
+
+/* cta */
+.cta-strip{padding:80px 6vw;text-align:center}
+.cta-strip h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,3vw,38px);font-style:italic;margin-bottom:28px;max-width:640px;margin-left:auto;margin-right:auto}
+.btn{display:inline-block;padding:14px 28px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:6px;transition:background .2s}
+.btn:hover{background:var(--accent-dark)}
+
+/* footer */
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio" aria-current="page">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta"
+         data-es="Contacto"
+         data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link">
+      <span class="menu-index">01</span>
+      <span data-es="Estudio" data-en="Studio">Estudio</span>
+      <span class="menu-arrow">&#8594;</span>
+    </a>
+    <a href="/servicios/" class="mobile-link">
+      <span class="menu-index">02</span>
+      <span data-es="Servicios" data-en="Services">Servicios</span>
+      <span class="menu-arrow">&#8594;</span>
+    </a>
+    <a href="/proyectos/" class="mobile-link">
+      <span class="menu-index">03</span>
+      <span data-es="Proyectos" data-en="Projects">Proyectos</span>
+      <span class="menu-arrow">&#8594;</span>
+    </a>
+    <a href="/journal/" class="mobile-link">
+      <span class="menu-index">04</span>
+      <span>Journal</span>
+      <span class="menu-arrow">&#8594;</span>
+    </a>
+    <a href="/contacto/" class="mobile-link">
+      <span class="menu-index">05</span>
+      <span data-es="Contacto" data-en="Contact">Contacto</span>
+      <span class="menu-arrow">&#8594;</span>
+    </a>
+  </nav>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-kicker" data-es="Arquitectos" data-en="Architects">Arquitectos</p>
+  <h1 data-es="Arquitectura, criterio tecnico y direccion creativa para espacios comerciales." data-en="Architecture, technical expertise and creative direction for commercial spaces.">Arquitectura, criterio tecnico y direccion creativa para espacios comerciales.</h1>
+  <p class="hero-lead" data-es="Conoce al equipo detras de EOLOS y la experiencia que sostiene cada proyecto." data-en="Meet the team behind EOLOS and the experience behind every project.">Conoce al equipo detras de EOLOS y la experiencia que sostiene cada proyecto.</p>
+</section>
+
+<!-- TEAM -->
+<section class="team">
+  <div class="team-grid">
+
+    <div class="team-card">
+      <img src="https://eolos.es/wp-content/uploads/2026/05/eolos-dolores.webp" alt="Dolores, CEO y socia de EOLOS" loading="lazy" width="600" height="600">
+      <h2>Dolores</h2>
+      <p class="role" data-es="CEO, Socia" data-en="CEO, Partner">CEO, Socia</p>
+      <p data-es="Dolores lidera EOLOS con foco en estrategia, sostenibilidad y ejecucion. Su trayectoria combina diseno, espacios comerciales y gestion de proyectos complejos para promotores, empresas y marcas en mercados internacionales." data-en="Dolores leads EOLOS with a focus on strategy, sustainability and execution. Her background combines design, commercial spaces and complex project management for developers, businesses and brands in international markets.">Dolores lidera EOLOS con foco en estrategia, sostenibilidad y ejecucion. Su trayectoria combina diseno, espacios comerciales y gestion de proyectos complejos para promotores, empresas y marcas en mercados internacionales.</p>
+      <p data-es="En EOLOS conecta vision creativa, criterio comercial y una forma de trabajar estructurada, para que cada proyecto avance con claridad desde la idea hasta la entrega. Es arquitecta con formacion especializada en diseno sostenible y construccion circular, y certificacion WELL Accredited Professional." data-en="At EOLOS she connects creative vision, commercial criteria and a structured way of working, so every project moves clearly from idea to delivery. She is an architect with specialist training in sustainable design and circular construction, and WELL Accredited Professional certification.">En EOLOS conecta vision creativa, criterio comercial y una forma de trabajar estructurada, para que cada proyecto avance con claridad desde la idea hasta la entrega. Es arquitecta con formacion especializada en diseno sostenible y construccion circular, y certificacion WELL Accredited Professional.</p>
+    </div>
+
+    <div class="team-card">
+      <img src="https://eolos.es/wp-content/uploads/2026/05/eolos-dimitrios.webp" alt="Dimitrios, Director Creativo y socio de EOLOS" loading="lazy" width="600" height="600">
+      <h2>Dimitrios</h2>
+      <p class="role" data-es="Director Creativo, Socio" data-en="Creative Director, Partner">Director Creativo, Socio</p>
+      <p data-es="Dimitrios dirige la vision creativa de EOLOS. Su trabajo se mueve entre diseno, estrategia, marca y experiencia espacial, transformando ideas iniciales en conceptos claros, identidades visuales y entornos comerciales con caracter." data-en="Dimitrios leads the creative vision at EOLOS. His work spans design, strategy, brand and spatial experience, transforming early ideas into clear concepts, visual identities and commercial environments with character.">Dimitrios dirige la vision creativa de EOLOS. Su trabajo se mueve entre diseno, estrategia, marca y experiencia espacial, transformando ideas iniciales en conceptos claros, identidades visuales y entornos comerciales con caracter.</p>
+      <p data-es="Como arquitecto, ha liderado proyectos residenciales y comerciales para promotores, empresas y marcas en mercados internacionales, combinando vision tecnica con sensibilidad estetica y pensamiento de marca. En EOLOS guia el proceso creativo y coordina los equipos de diseno." data-en="As an architect, he has led residential and commercial projects for developers, businesses and brands in international markets, combining technical vision with aesthetic sensibility and brand thinking. At EOLOS he guides the creative process and coordinates design teams.">Como arquitecto, ha liderado proyectos residenciales y comerciales para promotores, empresas y marcas en mercados internacionales, combinando vision tecnica con sensibilidad estetica y pensamiento de marca. En EOLOS guia el proceso creativo y coordina los equipos de diseno.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EQUIPOS -->
+<section class="equipos">
+  <div class="equipos-inner">
+    <h2 data-es="Nuestros Equipos" data-en="Our Teams">Nuestros Equipos</h2>
+    <p class="equipos-lead" data-es="Juntos, Dolores y Dimitrios lideran un equipo de disenadores, especialistas en produccion, ingenieros y colaboradores." data-en="Together, Dolores and Dimitrios lead a team of designers, production specialists, engineers and collaborators.">Juntos, Dolores y Dimitrios lideran un equipo de disenadores, especialistas en produccion, ingenieros y colaboradores.</p>
+    <div class="equipos-grid">
+      <div class="equipo-card">
+        <h3 data-es="Estudio" data-en="Studio">Estudio</h3>
+        <p data-es="Arquitectos, disenadores de interiores, especialistas en concepto y visualizacion" data-en="Architects, interior designers, concept and visualisation specialists">Arquitectos, disenadores de interiores, especialistas en concepto y visualizacion</p>
+      </div>
+      <div class="equipo-card">
+        <h3 data-es="Produccion" data-en="Production">Produccion</h3>
+        <p data-es="Coordinacion de obra, direccion de ejecucion, gestion tecnica" data-en="Site coordination, execution management, technical oversight">Coordinacion de obra, direccion de ejecucion, gestion tecnica</p>
+      </div>
+      <div class="equipo-card">
+        <h3 data-es="Ingenieria" data-en="Engineering">Ingenieria</h3>
+        <p data-es="Estructuras, instalaciones y consultoria tecnica" data-en="Structures, building services and technical consultancy">Estructuras, instalaciones y consultoria tecnica</p>
+      </div>
+      <div class="equipo-card">
+        <h3 data-es="Colaboradores" data-en="Collaborators">Colaboradores</h3>
+        <p data-es="Especialistas en varios campos" data-en="Specialists across multiple disciplines">Especialistas en varios campos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip">
+  <h2 data-es="?Quieres hablar de tu proyecto?" data-en="Want to talk about your project?">?Quieres hablar de tu proyecto?</h2>
+  <a href="/contacto/" class="btn" data-es="Reserva una consulta gratuita" data-en="Book a free consultation">Reserva una consulta gratuita</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span>
+    <a href="/legal/">Aviso legal</a>
+    &nbsp;|&nbsp;
+    <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a>
+  </span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>

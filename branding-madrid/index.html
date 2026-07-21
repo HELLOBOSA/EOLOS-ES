@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Branding Comercial en Madrid - EOLOS DESIGN LAB</title>
+<meta name="description" content="Disenamos identidades de marca para restaurantes, hoteles, spas y negocios comerciales en Madrid. Naming, sistema visual, manual de marca y aplicaciones. Solos o integrado con el diseno del espacio.">
+<link rel="canonical" href="https://eolos.es/branding-madrid/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+
+/* dark hero */
+.dark-hero{background:#0a0a0a;padding:calc(var(--nav-h) + 80px) 6vw 80px;display:grid;grid-template-columns:58fr 42fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+@media(max-width:800px){.dark-hero{grid-template-columns:1fr;padding-top:calc(var(--nav-h) + 48px)}}
+.dark-hero-text{color:#fff}
+.dark-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.dark-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,48px);line-height:1.08;font-weight:700;margin-bottom:24px;color:#ffffff}
+.dark-hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.dark-hero-img img{width:100%;border-radius:10px;display:block}
+@media(max-width:800px){.dark-hero-img{order:-1}}
+
+/* why section */
+.why-section{padding:80px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);text-align:center;margin-bottom:16px}
+.why-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,44px);text-align:center;margin-bottom:64px;max-width:780px;margin-left:auto;margin-right:auto}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
+@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.why-grid{grid-template-columns:1fr}}
+.why-card h3{font-size:16px;font-weight:700;margin-bottom:10px}
+.why-card p{font-size:14px;color:var(--ink-muted);line-height:1.65}
+
+/* contact CTA */
+.contact-cta{background:#f5f4f1;padding:88px 6vw}
+.contact-cta-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:45fr 55fr;gap:72px;align-items:start}
+@media(max-width:768px){.contact-cta-inner{grid-template-columns:1fr;gap:40px}}
+.cta-copy-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.contact-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.4vw,36px);line-height:1.2;margin-bottom:20px}
+.contact-cta .cta-body{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:24px}
+.cta-bullets{list-style:none;padding:0;font-size:13px;color:var(--ink-muted);display:flex;flex-direction:column;gap:6px}
+.cta-form-placeholder{background:var(--surface);border-radius:var(--radius);padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:220px;text-align:center;gap:16px;border:1px solid var(--border)}
+.cta-form-placeholder p{font-size:14px;color:var(--ink-muted)}
+.btn-dark{display:inline-block;padding:13px 26px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:background .2s}
+.btn-dark:hover{background:#333}
+
+/* footer */
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+
+/* nav dark override */
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<!-- DARK HERO -->
+<section style="background:#0a0a0a;padding-top:var(--nav-h)">
+  <div class="dark-hero">
+    <div class="dark-hero-text">
+      <p class="dark-kicker" data-es="Branding" data-en="Branding">Branding</p>
+      <h1 data-es="Tu marca no es tu logo. Es lo que el cliente siente antes de abrir la puerta." data-en="Your brand is not your logo. It is what the client feels before opening the door.">Tu marca no es tu logo. Es lo que el cliente siente antes de abrir la puerta.</h1>
+      <p class="dark-hero-lead" data-es="Disenamos identidades de marca para restaurantes, hoteles, spas y negocios comerciales en Madrid. Naming, sistema visual, manual de marca y aplicaciones. Solos o integrado con el diseno del espacio, si lo necesitas." data-en="We design brand identities for restaurants, hotels, spas and commercial businesses in Madrid. Naming, visual system, brand guidelines and applications. Standalone or integrated with space design, if needed.">Disenamos identidades de marca para restaurantes, hoteles, spas y negocios comerciales en Madrid. Naming, sistema visual, manual de marca y aplicaciones. Solos o integrado con el diseno del espacio, si lo necesitas.</p>
+      <a href="#contacto" class="btn-gold" data-es="Reserva consulta gratuita" data-en="Book a free consultation">Reserva consulta gratuita</a>
+    </div>
+    <div class="dark-hero-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/31-branding-madrid.webp" alt="Branding Comercial en Madrid" loading="lazy" width="800" height="640">
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why-section">
+  <p class="section-kicker" data-es="Por que importa" data-en="Why it matters">Por que importa</p>
+  <h2 data-es="Una marca bien construida justifica precios mas altos antes de que nadie hable contigo." data-en="A well-built brand justifies higher prices before anyone talks to you.">Una marca bien construida justifica precios mas altos antes de que nadie hable contigo.</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <h3 data-es="Identidad que trabaja sola" data-en="Identity that works on its own">Identidad que trabaja sola</h3>
+      <p data-es="Un sistema visual coherente comunica quien eres en cada punto de contacto, desde la fachada hasta Instagram, sin que tengas que explicarlo cada vez." data-en="A coherent visual system communicates who you are at every touchpoint - from the facade to Instagram - without you having to explain it each time.">Un sistema visual coherente comunica quien eres en cada punto de contacto, desde la fachada hasta Instagram, sin que tengas que explicarlo cada vez.</p>
+    </div>
+    <div class="why-card">
+      <h3 data-es="Marca y espacio como un solo argumento" data-en="Brand and space as one argument">Marca y espacio como un solo argumento</h3>
+      <p data-es="Cuando disenamos la marca y el espacio con el mismo equipo, los materiales, colores y atmosfera hablan el mismo idioma. Eso no pasa cuando contratas a tres estudios distintos." data-en="When we design the brand and the space with the same team, materials, colours and atmosphere speak the same language. That does not happen when you hire three different studios.">Cuando disenamos la marca y el espacio con el mismo equipo, los materiales, colores y atmosfera hablan el mismo idioma. Eso no pasa cuando contratas a tres estudios distintos.</p>
+    </div>
+    <div class="why-card">
+      <h3 data-es="Arquitectos, no solo disenadores graficos" data-en="Architects, not just graphic designers">Arquitectos, no solo disenadores graficos</h3>
+      <p data-es="Entendemos como un logo lee en senaletica a dos metros, como un color cambia con la iluminacion artificial, como la tipografia funciona en una carta impresa y en una pantalla. Eso cambia las decisiones de diseno." data-en="We understand how a logo reads on signage at two metres, how a colour shifts under artificial light, how typography works on a printed menu and on screen. That changes design decisions.">Entendemos como un logo lee en senaletica a dos metros, como un color cambia con la iluminacion artificial, como la tipografia funciona en una carta impresa y en una pantalla. Eso cambia las decisiones de diseno.</p>
+    </div>
+    <div class="why-card">
+      <h3 data-es="Un brief, no tres" data-en="One brief, not three">Un brief, no tres</h3>
+      <p data-es="Si necesitas tambien el espacio o la web, lo hacemos en paralelo con el mismo equipo. Ahorras entre 4 y 6 semanas y evitas la coordinacion entre agencias que nadie quiere gestionar." data-en="If you also need the space or the website, we do it in parallel with the same team. You save 4 to 6 weeks and avoid the inter-agency coordination no one wants to manage.">Si necesitas tambien el espacio o la web, lo hacemos en paralelo con el mismo equipo. Ahorras entre 4 y 6 semanas y evitas la coordinacion entre agencias que nadie quiere gestionar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="contact-cta" id="contacto">
+  <div class="contact-cta-inner">
+    <div>
+      <p class="cta-copy-kicker" data-es="Hablemos" data-en="Let us talk">Hablemos</p>
+      <h2 data-es="?Tu marca comunica lo que tu negocio vale?" data-en="Does your brand communicate what your business is worth?">?Tu marca comunica lo que tu negocio vale?</h2>
+      <p class="cta-body" data-es="Cuentanos el tipo de negocio, en que punto esta la marca ahora y que quieres conseguir. Respondemos en 24 horas." data-en="Tell us the type of business, where the brand stands now and what you want to achieve. We respond within 24 hours.">Cuentanos el tipo de negocio, en que punto esta la marca ahora y que quieres conseguir. Respondemos en 24 horas.</p>
+      <ul class="cta-bullets">
+        <li data-es="Sin compromiso" data-en="No commitment">Sin compromiso</li>
+        <li data-es="Primera consulta gratuita" data-en="First consultation free">Primera consulta gratuita</li>
+        <li data-es="Respondemos en 24h" data-en="We respond in 24h">Respondemos en 24h</li>
+      </ul>
+    </div>
+    <div class="cta-form-placeholder">
+      <p data-es="El formulario estara disponible en breve." data-en="The form will be available soon.">El formulario estara disponible en breve.</p>
+      <a href="mailto:info@eolos.es" class="btn-dark" data-es="Escribenosal info@eolos.es" data-en="Email us at info@eolos.es">info@eolos.es</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span>
+    <a href="/legal/">Aviso legal</a>
+    &nbsp;|&nbsp;
+    <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a>
+  </span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>

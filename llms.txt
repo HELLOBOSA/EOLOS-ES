@@ -1,167 +1,157 @@
-# EOLOS DESIGN LAB — Ελλάδα
+# EOLOS DESIGN LAB - Espana
 
-> Το EOLOS DESIGN LAB είναι εμπορικό design studio με γραφεία στην Αθήνα και τη Θεσσαλονίκη. Ενώνει χώρο, brand, web design, SEO, οπτικοποίηση και project management για επιχειρήσεις στην Ελλάδα που θέλουν μία καθαρή εμπορική εικόνα. Εγγεγραμμένοι στο ΤΕΕ (Αρ. 168011). Πιστοποίηση WELL AP. Μέλος του WOLFBLANC.
+> EOLOS DESIGN LAB es un estudio de diseno comercial con base en Madrid y proyectos en Barcelona, Marbella y toda Espana. Conecta espacio, marca, web, visualizacion y gestion de proyectos para negocios que quieren una imagen comercial coherente y rentable. Arquitectos colegiados COAM con certificacion WELL AP. Parte de WOLFBLANC.
 
-## Στοιχεία και πιστοποιήσεις
+## Credenciales
 
-- Εγγεγραμμένοι στο ΤΕΕ, Αρ. 168011
-- Πιστοποίηση WELL AP
-- Μέλος του WOLFBLANC
-- Εργασία στα ελληνικά και στα αγγλικά
+- Arquitectos colegiados COAM
+- Certificacion WELL AP
+- Parte de WOLFBLANC
+- Trabajo en espanol e ingles
 
-## Ιστότοπος
+## Empresa
 
-- URL: https://eoloslab.gr
-- Γλώσσες: ελληνικά (προεπιλογή), αγγλικά
-- Τύπος: Εμπορικό design studio
-- Νομική ενημέρωση: https://eoloslab.gr/legal/
-- Συχνές ερωτήσεις: https://eoloslab.gr/sixnes-erotiseis/
-- Journal: https://eoloslab.gr/journal/
+- Razon social: Wolfblanc Architects S.L.
+- NIF: B22578207
+- Domicilio: Calle Hermosilla 48, 28001 Madrid
+- Contacto: info@eolos.es
+- Telefono: +34 662 411 064
 
-## Γραφεία
+## Sitio web
 
-### Αθήνα
-- Διεύθυνση: Ερμού 56, 10563 Αθήνα, Ελλάδα
-- Τηλέφωνο: +30 210 300 9919
-- Email: info@eoloslab.com
-- Ωράριο: Δευτέρα-Παρασκευή 09:00-18:00
+- URL: https://eolos.es
+- Idiomas: espanol (por defecto), ingles
+- Tipo: Estudio de diseno comercial
+- Aviso legal: https://eolos.es/legal/
+- Preguntas frecuentes: https://eolos.es/faq/
+- Journal: https://eolos.es/journal/
 
-### Θεσσαλονίκη
-- Διεύθυνση: Καρόλου Ντηλ 31-33, 54623 Θεσσαλονίκη, Ελλάδα
-- Τηλέφωνο: +30 231 111 7280
-- Email: info@eoloslab.com
-- Ωράριο: Δευτέρα-Παρασκευή 09:00-18:00
+## Oficinas
 
-## Υπηρεσίες
+### Madrid
+- Direccion: Calle Hermosilla 48, 28001 Madrid, Espana
+- Email: info@eolos.es
+- Telefono: +34 662 411 064
 
-1. Εμπορικός σχεδιασμός εσωτερικών χώρων για εστιατόρια, ξενοδοχεία, wellness, retail και γραφεία.
-2. Ολική ανακαίνιση και διαχείριση έργου με ενιαία κατεύθυνση.
-3. Branding για επιχειρήσεις που θέλουν καθαρή αγορά, εικόνα και μνήμη.
-4. Web design και SEO για αιτήματα, κρατήσεις, κλήσεις και εμπορική παρουσία.
-5. Αρχιτεκτονική οπτικοποίηση και creative direction για αποφάσεις, προώθηση και υλοποίηση.
+### Barcelona
+- Operaciones desde Madrid con desplazamiento regular
+- Email: info@eolos.es
 
-## Γεωγραφική κάλυψη
+## Servicios
 
-Αθήνα, Αττική, Θεσσαλονίκη, Κεντρική Μακεδονία, Βόρεια Ελλάδα, Ελλάδα, Μύκονος, Σαντορίνη, Κρήτη, Πάρος, Χαλκιδική και διεθνείς πελάτες που αναπτύσσουν επιχείρηση ή brand στην Ελλάδα.
+1. Interiorismo comercial en Madrid, Barcelona y Marbella para hoteles, restaurantes, oficinas, retail y clinicas.
+2. Reforma integral y gestion de proyectos con un solo interlocutor.
+3. Branding comercial para negocios que necesitan posicion de mercado clara, imagen y memoria.
+4. Diseno web en Madrid para contactos, reservas y presencia comercial.
+5. Visualizacion arquitectonica y staging digital para ventas, leasing e inversion.
+6. Direccion creativa para coordinacion entre diseno de espacio, marca y digital.
+7. Experiencia completa: espacio, marca y digital como un solo proyecto.
 
-## Κύριες σελίδες
+## Cobertura geografica
 
-- https://eoloslab.gr/
-- https://eoloslab.gr/studio/
-- https://eoloslab.gr/emporikos-sxediasmos-athina/
-- https://eoloslab.gr/ypiresies/
-- https://eoloslab.gr/journal/
-- https://eoloslab.gr/sixnes-erotiseis/
-- https://eoloslab.gr/legal/
+Madrid, Barcelona, Marbella, Costa del Sol, y toda Espana. Clientes internacionales con proyectos en Espana.
 
-## Σελίδες υπηρεσιών
+## Paginas principales
 
-- https://eoloslab.gr/ypiresies/emporikos-sxediasmos-esoterikon-choron/
-- https://eoloslab.gr/ypiresies/anakainisi-diaxeirisi-ergou/
-- https://eoloslab.gr/ypiresies/emporiko-branding/
-- https://eoloslab.gr/ypiresies/web-design-seo/
-- https://eoloslab.gr/ypiresies/dimiourgiki-dieythynsi/
-- https://eoloslab.gr/ypiresies/optikopoiisi-choron/
-- https://eoloslab.gr/ypiresies/oloklirwmeni-empeiria/
+- https://eolos.es/
+- https://eolos.es/estudio/
+- https://eolos.es/servicios/
+- https://eolos.es/proyectos/
+- https://eolos.es/arquitectos/
+- https://eolos.es/faq/
+- https://eolos.es/contacto/
+- https://eolos.es/journal/
+- https://eolos.es/legal/
 
-## Journal
+## Paginas de servicios
 
-- https://eoloslab.gr/journal/anakainisi-estiatoriou-athina/
-- https://eoloslab.gr/journal/hotel-design-athens-2026/
-- https://eoloslab.gr/journal/choose-design-firm-athens/
-- https://eoloslab.gr/journal/xoros-brand-web-epixeirisi/
-- https://eoloslab.gr/journal/adeies-anakainisis-epaggelmatikou-chorou-athina/
-- https://eoloslab.gr/journal/kostos-anakainisis-epaggelmatikou-chorou/
-- https://eoloslab.gr/journal/branding-kafe-estiatorio/
-- https://eoloslab.gr/journal/web-design-seo-estiatorio/
-- https://eoloslab.gr/journal/anakainisi-kafeterias-athina/
-- https://eoloslab.gr/journal/sxediasmos-grafeion-athina/
-- https://eoloslab.gr/journal/design-airbnb-vraxyxronia-misthosi/
-- https://eoloslab.gr/journal/pos-na-anoikseis-estiatorio-athina/
-- https://eoloslab.gr/journal/anakainisi-diamerismatos-gia-misthosi/
-- https://eoloslab.gr/journal/sxediasmos-katastimatos-retail-athina/
+- https://eolos.es/interiorismo-comercial/
+- https://eolos.es/interiorismo-comercial/madrid/
+- https://eolos.es/interiorismo-comercial/barcelona/
+- https://eolos.es/interiorismo-comercial/marbella/
+- https://eolos.es/reforma-integral/
+- https://eolos.es/branding-madrid/
+- https://eolos.es/diseno-web-madrid/
+- https://eolos.es/visualizacion/
+- https://eolos.es/experiencia-completa/
+- https://eolos.es/direccion-creativa/
 
 ---
 
-# EOLOS DESIGN LAB — Greece
+# EOLOS DESIGN LAB - Spain
 
-> EOLOS DESIGN LAB is a commercial design studio with offices in Athens and Thessaloniki. It connects space, brand, web design, SEO, visualization and project management for businesses in Greece that need one coherent commercial image. Registered with the Technical Chamber of Greece (TEE, No. 168011). WELL AP certified. Part of WOLFBLANC.
+> EOLOS DESIGN LAB is a commercial design studio based in Madrid with projects in Barcelona, Marbella and across Spain. It connects space, brand, web, visualisation and project management for businesses that want a coherent and profitable commercial image. COAM registered architects with WELL AP certification. Part of WOLFBLANC.
 
 ## Credentials
 
-- Registered with the Technical Chamber of Greece (TEE), No. 168011
-- WELL AP certified
+- COAM registered architects
+- WELL AP certification
 - Part of WOLFBLANC
-- Working in Greek and English
+- Working in Spanish and English
+
+## Company
+
+- Legal name: Wolfblanc Architects S.L.
+- Tax ID: B22578207
+- Address: Calle Hermosilla 48, 28001 Madrid
+- Contact: info@eolos.es
+- Phone: +34 662 411 064
 
 ## Website
 
-- URL: https://eoloslab.gr
-- Languages: Greek (default), English
+- URL: https://eolos.es
+- Languages: Spanish (default), English
 - Type: Commercial design studio
-- Legal notice: https://eoloslab.gr/legal/
-- Frequently asked questions: https://eoloslab.gr/sixnes-erotiseis/
-- Journal: https://eoloslab.gr/journal/
+- Legal notice: https://eolos.es/legal/
+- Frequently asked questions: https://eolos.es/faq/
+- Journal: https://eolos.es/journal/
 
 ## Offices
 
-### Athens
-- Address: Ermou 56, 10563 Athens, Greece
-- Phone: +30 210 300 9919
-- Email: info@eoloslab.com
-- Hours: Monday-Friday 09:00-18:00
+### Madrid
+- Address: Calle Hermosilla 48, 28001 Madrid, Spain
+- Email: info@eolos.es
+- Phone: +34 662 411 064
 
-### Thessaloniki
-- Address: Karolou Dil 31-33, 54623 Thessaloniki, Greece
-- Phone: +30 231 111 7280
-- Email: info@eoloslab.com
-- Hours: Monday-Friday 09:00-18:00
+### Barcelona
+- Operations from Madrid with regular on-site visits
+- Email: info@eolos.es
 
 ## Services
 
-1. Commercial interior design for restaurants, hotels, wellness, retail and offices.
-2. Full renovation and project management with one direction.
-3. Branding for businesses that need a clear market position, image and memory.
-4. Web design and SEO for enquiries, bookings, calls and commercial presence.
-5. Architectural visualization and creative direction for decisions, promotion and delivery.
+1. Commercial interior design in Madrid, Barcelona and Marbella for hotels, restaurants, offices, retail and clinics.
+2. Full renovation and project management with a single point of contact.
+3. Commercial branding for businesses that need a clear market position, image and memorability.
+4. Web design in Madrid for enquiries, bookings and commercial presence.
+5. Architectural visualisation and digital staging for sales, leasing and investment.
+6. Creative direction to coordinate space design, brand and digital.
+7. Complete experience: space, brand and digital as a single project.
 
-## Coverage
+## Geographic coverage
 
-Athens, Attica, Thessaloniki, Central Macedonia, Northern Greece, Greece, Mykonos, Santorini, Crete, Paros, Chalkidiki and international clients developing a business or brand in Greece.
+Madrid, Barcelona, Marbella, Costa del Sol, and all of Spain. International clients with projects in Spain.
 
 ## Key pages
 
-- https://eoloslab.gr/
-- https://eoloslab.gr/studio/
-- https://eoloslab.gr/emporikos-sxediasmos-athina/
-- https://eoloslab.gr/ypiresies/
-- https://eoloslab.gr/journal/
-- https://eoloslab.gr/sixnes-erotiseis/
-- https://eoloslab.gr/legal/
+- https://eolos.es/
+- https://eolos.es/estudio/
+- https://eolos.es/servicios/
+- https://eolos.es/proyectos/
+- https://eolos.es/arquitectos/
+- https://eolos.es/faq/
+- https://eolos.es/contacto/
+- https://eolos.es/journal/
+- https://eolos.es/legal/
 
 ## Service pages
 
-- https://eoloslab.gr/ypiresies/emporikos-sxediasmos-esoterikon-choron/
-- https://eoloslab.gr/ypiresies/anakainisi-diaxeirisi-ergou/
-- https://eoloslab.gr/ypiresies/emporiko-branding/
-- https://eoloslab.gr/ypiresies/web-design-seo/
-- https://eoloslab.gr/ypiresies/dimiourgiki-dieythynsi/
-- https://eoloslab.gr/ypiresies/optikopoiisi-choron/
-- https://eoloslab.gr/ypiresies/oloklirwmeni-empeiria/
-
-## Journal
-
-- https://eoloslab.gr/journal/anakainisi-estiatoriou-athina/
-- https://eoloslab.gr/journal/hotel-design-athens-2026/
-- https://eoloslab.gr/journal/choose-design-firm-athens/
-- https://eoloslab.gr/journal/xoros-brand-web-epixeirisi/
-- https://eoloslab.gr/journal/adeies-anakainisis-epaggelmatikou-chorou-athina/
-- https://eoloslab.gr/journal/kostos-anakainisis-epaggelmatikou-chorou/
-- https://eoloslab.gr/journal/branding-kafe-estiatorio/
-- https://eoloslab.gr/journal/web-design-seo-estiatorio/
-- https://eoloslab.gr/journal/anakainisi-kafeterias-athina/
-- https://eoloslab.gr/journal/sxediasmos-grafeion-athina/
-- https://eoloslab.gr/journal/design-airbnb-vraxyxronia-misthosi/
-- https://eoloslab.gr/journal/pos-na-anoikseis-estiatorio-athina/
-- https://eoloslab.gr/journal/anakainisi-diamerismatos-gia-misthosi/
-- https://eoloslab.gr/journal/sxediasmos-katastimatos-retail-athina/
+- https://eolos.es/interiorismo-comercial/
+- https://eolos.es/interiorismo-comercial/madrid/
+- https://eolos.es/interiorismo-comercial/barcelona/
+- https://eolos.es/interiorismo-comercial/marbella/
+- https://eolos.es/reforma-integral/
+- https://eolos.es/branding-madrid/
+- https://eolos.es/diseno-web-madrid/
+- https://eolos.es/visualizacion/
+- https://eolos.es/experiencia-completa/
+- https://eolos.es/direccion-creativa/

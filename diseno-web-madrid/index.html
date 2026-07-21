@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diseno Web en Madrid - EOLOS DESIGN LAB</title>
+<meta name="description" content="Disenamos webs para restaurantes, hoteles, spas y negocios comerciales en Madrid. Orientada a reservas, SEO desde el primer dia, y coherente con el espacio y la marca cuando lo hacemos todo en paralelo.">
+<link rel="canonical" href="https://eolos.es/diseno-web-madrid/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.dark-hero{background:#0a0a0a;padding:calc(var(--nav-h) + 80px) 6vw 80px;display:grid;grid-template-columns:58fr 42fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+@media(max-width:800px){.dark-hero{grid-template-columns:1fr;padding-top:calc(var(--nav-h) + 48px)}}
+.dark-hero-text{color:#fff}
+.dark-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.dark-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,48px);line-height:1.08;font-weight:700;margin-bottom:24px;color:#ffffff}
+.dark-hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.dark-hero-img img{width:100%;border-radius:10px;display:block}
+@media(max-width:800px){.dark-hero-img{order:-1}}
+.why-section{padding:80px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);text-align:center;margin-bottom:16px}
+.why-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,44px);text-align:center;margin-bottom:64px;max-width:780px;margin-left:auto;margin-right:auto}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}
+@media(max-width:900px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.why-grid{grid-template-columns:1fr}}
+.why-card h3{font-size:16px;font-weight:700;margin-bottom:10px}
+.why-card p{font-size:14px;color:var(--ink-muted);line-height:1.65}
+.contact-cta{background:#f5f4f1;padding:88px 6vw}
+.contact-cta-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:45fr 55fr;gap:72px;align-items:start}
+@media(max-width:768px){.contact-cta-inner{grid-template-columns:1fr;gap:40px}}
+.cta-copy-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.contact-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.4vw,36px);line-height:1.2;margin-bottom:20px}
+.contact-cta .cta-body{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:24px}
+.cta-bullets{list-style:none;padding:0;font-size:13px;color:var(--ink-muted);display:flex;flex-direction:column;gap:6px}
+.cta-form-placeholder{background:var(--surface);border-radius:var(--radius);padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:220px;text-align:center;gap:16px;border:1px solid var(--border)}
+.cta-form-placeholder p{font-size:14px;color:var(--ink-muted)}
+.btn-dark{display:inline-block;padding:13px 26px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:background .2s}
+.btn-dark:hover{background:#333}
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+</style>
+</head>
+<body>
+
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<section style="background:#0a0a0a;padding-top:var(--nav-h)">
+  <div class="dark-hero">
+    <div class="dark-hero-text">
+      <p class="dark-kicker" data-es="Diseno web" data-en="Web design">Diseno web</p>
+      <h1 data-es="Tu web es la primera visita que hace el cliente. Antes de pisar el local." data-en="Your website is the first visit the client makes. Before stepping inside.">Tu web es la primera visita que hace el cliente. Antes de pisar el local.</h1>
+      <p class="dark-hero-lead" data-es="Disenamos webs para restaurantes, hoteles, spas y negocios comerciales en Madrid. Como proyecto independiente o integrado con el diseno del espacio y la marca, si lo necesitas." data-en="We design websites for restaurants, hotels, spas and commercial businesses in Madrid. As a standalone project or integrated with space and brand design, if needed.">Disenamos webs para restaurantes, hoteles, spas y negocios comerciales en Madrid. Como proyecto independiente o integrado con el diseno del espacio y la marca, si lo necesitas.</p>
+      <a href="#contacto" class="btn-gold" data-es="Reserva consulta gratuita" data-en="Book a free consultation">Reserva consulta gratuita</a>
+    </div>
+    <div class="dark-hero-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/30-diseno-web-madrid.webp" alt="Diseno Web en Madrid" loading="lazy" width="800" height="640">
+    </div>
+  </div>
+</section>
+
+<section class="why-section">
+  <p class="section-kicker" data-es="Por que importa" data-en="Why it matters">Por que importa</p>
+  <h2 data-es="Una web que no refleja el espacio real pierde reservas antes de que el cliente llegue." data-en="A website that does not reflect the real space loses bookings before the client arrives.">Una web que no refleja el espacio real pierde reservas antes de que el cliente llegue.</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <h3 data-es="Disenada por quien conoce el espacio" data-en="Designed by those who know the space">Disenada por quien conoce el espacio</h3>
+      <p data-es="Cuando el mismo equipo disena el espacio y la web, la atmosfera, los colores y el tono son coherentes. El cliente sabe exactamente que esperar cuando llega. Eso reduce la friccion y aumenta la conversion." data-en="When the same team designs the space and the website, the atmosphere, colours and tone are consistent. The client knows exactly what to expect when they arrive. That reduces friction and increases conversion.">Cuando el mismo equipo disena el espacio y la web, la atmosfera, los colores y el tono son coherentes. El cliente sabe exactamente que esperar cuando llega. Eso reduce la friccion y aumenta la conversion.</p>
+    </div>
+    <div class="why-card">
+      <h3 data-es="Orientada a reservas y contacto directo" data-en="Built for bookings and direct contact">Orientada a reservas y contacto directo</h3>
+      <p data-es="No es una web de presentacion. Es una herramienta comercial. Cada pagina, cada imagen y cada llamada a la accion estan pensadas para reducir la dependencia de plataformas externas y llevar el cliente directo a ti." data-en="This is not a presentation website. It is a commercial tool. Every page, image and call to action is designed to reduce dependence on external platforms and bring the client directly to you.">No es una web de presentacion. Es una herramienta comercial. Cada pagina, cada imagen y cada llamada a la accion estan pensadas para reducir la dependencia de plataformas externas y llevar el cliente directo a ti.</p>
+    </div>
+    <div class="why-card">
+      <h3 data-es="SEO desde el primer dia" data-en="SEO from day one">SEO desde el primer dia</h3>
+      <p data-es="Estructura, velocidad, contenido y arquitectura pensados para posicionar desde el lanzamiento. No como un anadido posterior, sino como parte del proceso de diseno desde el principio." data-en="Structure, speed, content and architecture designed to rank from launch. Not as an afterthought, but as part of the design process from the start.">Estructura, velocidad, contenido y arquitectura pensados para posicionar desde el lanzamiento. No como un anadido posterior, sino como parte del proceso de diseno desde el principio.</p>
+    </div>
+    <div class="why-card">
+      <h3 data-es="Un brief, no tres" data-en="One brief, not three">Un brief, no tres</h3>
+      <p data-es="Si necesitas tambien el espacio o la marca, lo hacemos en paralelo. Ahorras tiempo de coordinacion y consigues una apertura donde todo comunica lo mismo desde el primer dia." data-en="If you also need the space or the brand, we do it in parallel. You save coordination time and get an opening where everything communicates the same thing from day one.">Si necesitas tambien el espacio o la marca, lo hacemos en paralelo. Ahorras tiempo de coordinacion y consigues una apertura donde todo comunica lo mismo desde el primer dia.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta" id="contacto">
+  <div class="contact-cta-inner">
+    <div>
+      <p class="cta-copy-kicker" data-es="Hablemos" data-en="Let us talk">Hablemos</p>
+      <h2 data-es="?Tu web refleja lo que realmente ofreces?" data-en="Does your website reflect what you really offer?">?Tu web refleja lo que realmente ofreces?</h2>
+      <p class="cta-body" data-es="Cuentanos el tipo de negocio, si ya tienes web y que quieres conseguir con la nueva. Respondemos en 24 horas." data-en="Tell us the type of business, whether you already have a website and what you want to achieve with the new one. We respond within 24 hours.">Cuentanos el tipo de negocio, si ya tienes web y que quieres conseguir con la nueva. Respondemos en 24 horas.</p>
+      <ul class="cta-bullets">
+        <li data-es="Sin compromiso" data-en="No commitment">Sin compromiso</li>
+        <li data-es="Primera consulta gratuita" data-en="First consultation free">Primera consulta gratuita</li>
+        <li data-es="Respondemos en 24h" data-en="We respond in 24h">Respondemos en 24h</li>
+      </ul>
+    </div>
+    <div class="cta-form-placeholder">
+      <p data-es="El formulario estara disponible en breve." data-en="The form will be available soon.">El formulario estara disponible en breve.</p>
+      <a href="mailto:info@eolos.es" class="btn-dark">info@eolos.es</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>

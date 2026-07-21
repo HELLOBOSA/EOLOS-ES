@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visualizacion de Espacios Comerciales - EOLOS DESIGN LAB</title>
+<meta name="description" content="Visualizacion dirigida por arquitectos para espacios con intencion de transaccion: viviendas en venta, pisos en alquiler, villas, locales, oficinas, hoteles, restaurantes, retail y lanzamientos inmobiliarios.">
+<link rel="canonical" href="https://eolos.es/visualizacion/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+
+.dark-hero{background:#0a0a0a;padding:calc(var(--nav-h) + 80px) 6vw 80px;display:grid;grid-template-columns:58fr 42fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+@media(max-width:800px){.dark-hero{grid-template-columns:1fr;padding-top:calc(var(--nav-h) + 48px)}}
+.dark-hero-text{color:#fff}
+.dark-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.dark-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,48px);line-height:1.08;font-weight:700;margin-bottom:24px;color:#fff}
+.dark-hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:16px}
+.dark-hero-lead-2{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.dark-hero-img img{width:100%;border-radius:10px;display:block}
+@media(max-width:800px){.dark-hero-img{order:-1}}
+
+/* stats dark strip */
+.stats-dark{background:#0a0a0a;padding:56px 6vw}
+.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:700px){.stats-inner{grid-template-columns:repeat(2,1fr);gap:32px}}
+.stat-item{padding:0 40px}
+.stat-item:first-child{padding-left:0}
+.stat-item:last-child{padding-right:0}
+.stat-val{font-family:'DM Serif Display',serif;font-size:clamp(28px,2.8vw,44px);font-weight:300;color:#c8a96e;line-height:1;margin-bottom:10px}
+.stat-desc{font-size:13px;color:#888888;line-height:1.5}
+
+/* paths section */
+.paths-section{padding:80px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);text-align:center;margin-bottom:16px}
+.paths-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,44px);text-align:center;margin-bottom:16px;max-width:760px;margin-left:auto;margin-right:auto}
+.paths-sub{text-align:center;color:var(--ink-mid);font-size:clamp(14px,1.2vw,17px);max-width:720px;margin:0 auto 64px;line-height:1.7}
+.paths-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+@media(max-width:700px){.paths-grid{grid-template-columns:1fr}}
+.path-card{border-radius:var(--radius);padding:40px}
+.path-card.light{background:#f5f4f1}
+.path-card.dark{background:#0a0a0a;color:#fff}
+.path-card h3{font-size:22px;font-weight:700;line-height:1.2;margin-bottom:16px}
+.path-card p{font-size:15px;line-height:1.7;margin-bottom:24px}
+.path-card.light p{color:var(--ink-mid)}
+.path-card.dark p{color:#bbbbbb}
+.btn-sm{display:inline-block;padding:10px 20px;font-size:13px;font-weight:600;text-decoration:none;border-radius:4px}
+.btn-sm-dark{background:#0a0a0a;color:#fff}
+.btn-sm-gold{background:#c8a96e;color:#000}
+
+/* impact section */
+.impact-section{background:#0a0a0a;padding:80px 6vw}
+.impact-inner{max-width:1100px;margin:0 auto}
+.impact-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#999;margin-bottom:40px}
+.impact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:700px){.impact-grid{grid-template-columns:1fr}}
+.impact-card{border:1px solid #2a2a2a;border-radius:10px;padding:40px 36px}
+.impact-card h3{font-size:20px;font-weight:700;color:#fff;margin-bottom:12px}
+.impact-card p{font-size:14px;color:#888;line-height:1.65}
+
+/* contact CTA */
+.contact-cta{background:#f5f4f1;padding:88px 6vw}
+.contact-cta-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:45fr 55fr;gap:72px;align-items:start}
+@media(max-width:768px){.contact-cta-inner{grid-template-columns:1fr;gap:40px}}
+.cta-copy-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.contact-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(20px,2.4vw,34px);line-height:1.2;margin-bottom:20px}
+.contact-cta .cta-body{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:24px}
+.cta-form-placeholder{background:var(--surface);border-radius:var(--radius);padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:220px;text-align:center;gap:16px;border:1px solid var(--border)}
+.cta-form-placeholder p{font-size:14px;color:var(--ink-muted)}
+.btn-dark{display:inline-block;padding:13px 26px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px}
+
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+</style>
+</head>
+<body>
+
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<section style="background:#0a0a0a;padding-top:var(--nav-h)">
+  <div class="dark-hero">
+    <div class="dark-hero-text">
+      <p class="dark-kicker" data-es="Visualizacion" data-en="Visualisation">Visualizacion</p>
+      <h1 data-es="La imagen decide si alguien hace clic, reserva, alquila, compra o invierte." data-en="The image decides whether someone clicks, books, rents, buys or invests.">La imagen decide si alguien hace clic, reserva, alquila, compra o invierte.</h1>
+      <p class="dark-hero-lead" data-es="EOLOS crea visualizacion dirigida por arquitectos para espacios con intencion de transaccion: viviendas en venta, pisos en alquiler, villas, locales, oficinas, hoteles, restaurantes, retail, lanzamientos inmobiliarios y material para inversores." data-en="EOLOS creates architect-led visualisation for spaces with transactional intent: homes for sale, rental flats, villas, premises, offices, hotels, restaurants, retail, real estate launches and investor materials.">EOLOS crea visualizacion dirigida por arquitectos para espacios con intencion de transaccion: viviendas en venta, pisos en alquiler, villas, locales, oficinas, hoteles, restaurantes, retail, lanzamientos inmobiliarios y material para inversores.</p>
+      <p class="dark-hero-lead-2" data-es="Elige Staging Digital cuando necesitas una imagen fuerte ahora. Elige Visualizacion Studio cuando la imagen debe sostener estrategia, marca, venta y decision." data-en="Choose Digital Staging when you need a strong image now. Choose Visualisation Studio when the image must support strategy, brand, sales and decision-making.">Elige Staging Digital cuando necesitas una imagen fuerte ahora. Elige Visualizacion Studio cuando la imagen debe sostener estrategia, marca, venta y decision.</p>
+      <a href="#elegir" class="btn-gold" data-es="Elegir el camino correcto" data-en="Choose the right path">Elegir el camino correcto</a>
+    </div>
+    <div class="dark-hero-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/28-visualizacion.webp" alt="Visualizacion de espacios comerciales" loading="lazy" width="800" height="640">
+    </div>
+  </div>
+</section>
+
+<div class="stats-dark">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-val" data-es="2h" data-en="2h">2h</div>
+      <p class="stat-desc" data-es="staging rapido para imagenes que necesitan convertir ya" data-en="fast staging for images that need to convert now">staging rapido para imagenes que necesitan convertir ya</p>
+    </div>
+    <div class="stat-item">
+      <div class="stat-val" data-es="Vivienda" data-en="Residential">Vivienda</div>
+      <p class="stat-desc" data-es="pisos, villas, alquiler, venta y material de presentacion" data-en="flats, villas, rental, sale and presentation material">pisos, villas, alquiler, venta y material de presentacion</p>
+    </div>
+    <div class="stat-item">
+      <div class="stat-val" data-es="Local" data-en="Commercial">Local</div>
+      <p class="stat-desc" data-es="oficinas, retail, restaurante, hotel, clinica y promocion inmobiliaria" data-en="offices, retail, restaurant, hotel, clinic and property development">oficinas, retail, restaurante, hotel, clinica y promocion inmobiliaria</p>
+    </div>
+    <div class="stat-item">
+      <div class="stat-val" data-es="Studio" data-en="Studio">Studio</div>
+      <p class="stat-desc" data-es="visualizacion premium para lanzamiento, leasing e inversion" data-en="premium visualisation for launch, leasing and investment">visualizacion premium para lanzamiento, leasing e inversion</p>
+    </div>
+  </div>
+</div>
+
+<section class="paths-section" id="elegir">
+  <p class="section-kicker" data-es="Dos caminos" data-en="Two paths">Dos caminos</p>
+  <h2 data-es="La misma mirada arquitectonica. Dos situaciones comerciales distintas." data-en="The same architectural eye. Two different commercial situations.">La misma mirada arquitectonica. Dos situaciones comerciales distintas.</h2>
+  <p class="paths-sub" data-es="No todos los proyectos necesitan una intervencion de estudio. Pero tampoco todas las imagenes deben tratarse como una pieza barata y aislada. El nivel correcto depende del objetivo comercial." data-en="Not every project needs a full studio intervention. But not every image should be treated as a cheap, isolated piece either. The right level depends on the commercial objective.">No todos los proyectos necesitan una intervencion de estudio. Pero tampoco todas las imagenes deben tratarse como una pieza barata y aislada. El nivel correcto depende del objetivo comercial.</p>
+  <div class="paths-grid">
+    <div class="path-card light">
+      <h3 data-es="Staging Digital" data-en="Digital Staging">Staging Digital</h3>
+      <p data-es="Para imagenes individuales o pequenas series cuando ya tienes una foto y necesitas mostrar el potencial rapido: amueblar, vaciar, cambiar estilo, mejorar atmosfera o reinterpretar el espacio." data-en="For individual images or small series when you already have a photo and need to show potential quickly: furnish, empty, change style, improve atmosphere or reinterpret the space.">Para imagenes individuales o pequenas series cuando ya tienes una foto y necesitas mostrar el potencial rapido: amueblar, vaciar, cambiar estilo, mejorar atmosfera o reinterpretar el espacio.</p>
+      <a href="/contacto/" class="btn-sm btn-sm-dark" data-es="Ir a Staging Digital" data-en="Go to Digital Staging">Ir a Staging Digital</a>
+    </div>
+    <div class="path-card dark">
+      <h3 data-es="Visualizacion Studio" data-en="Visualisation Studio">Visualizacion Studio</h3>
+      <p data-es="Para proyectos donde la visualizacion debe vender mas que una habitacion: un concepto, una operacion inmobiliaria, una inversion, una oportunidad de desarrollo o una apertura." data-en="For projects where visualisation must sell more than a room: a concept, a real estate transaction, an investment, a development opportunity or an opening.">Para proyectos donde la visualizacion debe vender mas que una habitacion: un concepto, una operacion inmobiliaria, una inversion, una oportunidad de desarrollo o una apertura.</p>
+      <a href="/contacto/" class="btn-sm btn-sm-gold" data-es="Ver Studio" data-en="See Studio">Ver Studio</a>
+    </div>
+  </div>
+</section>
+
+<section class="impact-section">
+  <div class="impact-inner">
+    <p class="impact-kicker" data-es="Donde tiene impacto" data-en="Where it has impact">Donde tiene impacto</p>
+    <div class="impact-grid">
+      <div class="impact-card">
+        <h3 data-es="Vivienda y propiedad" data-en="Residential and property">Vivienda y propiedad</h3>
+        <p data-es="Pisos, villas, viviendas vacias, activos a reformar y espacios donde el potencial no aparece en la foto actual." data-en="Flats, villas, empty homes, assets to renovate and spaces where potential does not show in the current photo.">Pisos, villas, viviendas vacias, activos a reformar y espacios donde el potencial no aparece en la foto actual.</p>
+      </div>
+      <div class="impact-card">
+        <h3 data-es="Locales y espacios comerciales" data-en="Premises and commercial spaces">Locales y espacios comerciales</h3>
+        <p data-es="Oficinas, retail, clinicas, restaurantes, hoteles y coworking que necesitan vender un uso antes de existir." data-en="Offices, retail, clinics, restaurants, hotels and coworking spaces that need to sell a use before existing.">Oficinas, retail, clinicas, restaurantes, hoteles y coworking que necesitan vender un uso antes de existir.</p>
+      </div>
+      <div class="impact-card">
+        <h3 data-es="Inversion y desarrollo" data-en="Investment and development">Inversion y desarrollo</h3>
+        <p data-es="Material para adquisicion, leasing, pitch, inicio de obra, lanzamiento de marca o reposicionamiento de un activo." data-en="Material for acquisition, leasing, pitch, construction start, brand launch or asset repositioning.">Material para adquisicion, leasing, pitch, inicio de obra, lanzamiento de marca o reposicionamiento de un activo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta" id="contacto">
+  <div class="contact-cta-inner">
+    <div>
+      <p class="cta-copy-kicker" data-es="?No sabes que necesitas?" data-en="Not sure what you need?">?No sabes que necesitas?</p>
+      <h2 data-es="Envia la imagen (1 o varias), el activo o el proyecto. Te diremos que nivel es suficiente." data-en="Send the image (one or several), the asset or the project. We will tell you which level is enough.">Envia la imagen (1 o varias), el activo o el proyecto. Te diremos que nivel es suficiente.</h2>
+      <p class="cta-body" data-es="El nivel correcto depende del objetivo comercial: venta, alquiler, reserva, inversion, aprobacion interna o reposicionamiento." data-en="The right level depends on the commercial objective: sale, rental, booking, investment, internal approval or repositioning.">El nivel correcto depende del objetivo comercial: venta, alquiler, reserva, inversion, aprobacion interna o reposicionamiento.</p>
+    </div>
+    <div class="cta-form-placeholder">
+      <p data-es="El formulario estara disponible en breve." data-en="The form will be available soon.">El formulario estara disponible en breve.</p>
+      <a href="mailto:info@eolos.es" class="btn-dark">info@eolos.es</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>

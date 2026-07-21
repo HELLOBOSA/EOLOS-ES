@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interiorismo Comercial en Barcelona - EOLOS DESIGN LAB</title>
+<meta name="description" content="Interiorismo comercial en Barcelona. Hoteles, restaurantes, oficinas y retail. Con moratoria hotelera activa desde 2017, toda la inversion va a renovacion de activos. Ejecutamos los estandares de diseno mas exigentes de Espana.">
+<link rel="canonical" href="https://eolos.es/interiorismo-comercial-barcelona/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.dark-hero{background:#0a0a0a;padding:calc(var(--nav-h) + 80px) 6vw 80px;display:grid;grid-template-columns:58fr 42fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+@media(max-width:800px){.dark-hero{grid-template-columns:1fr;padding-top:calc(var(--nav-h) + 48px)}}
+.dark-hero-text{color:#fff}
+.dark-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.dark-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,48px);line-height:1.08;font-weight:700;margin-bottom:24px;color:#fff}
+.dark-hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.dark-hero-img img{width:100%;border-radius:10px;display:block}
+@media(max-width:800px){.dark-hero-img{order:-1}}
+.stats-strip{background:#0a0a0a;padding:56px 6vw}
+.stats-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:600px){.stats-inner{grid-template-columns:1fr 1fr}}
+.stat-item{border-left:1px solid rgba(255,255,255,0.08);padding:0 32px}
+.stat-item:first-child{border-left:none}
+@media(max-width:600px){.stat-item:nth-child(odd){border-left:none;padding:16px 16px 16px 0}.stat-item:nth-child(even){padding:16px 0 16px 16px}}
+.stat-num{font-family:'DM Serif Display',serif;font-size:clamp(28px,2.8vw,44px);font-weight:300;color:#c8a96e;line-height:1;margin-bottom:10px}
+.stat-label{font-size:13px;color:#888;line-height:1.5}
+.sectors-section{padding:80px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);text-align:center;margin-bottom:16px}
+.sectors-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,44px);text-align:center;margin-bottom:16px;max-width:760px;margin-left:auto;margin-right:auto}
+.sectors-sub{text-align:center;color:var(--ink-mid);font-size:clamp(14px,1.2vw,17px);max-width:680px;margin:0 auto 56px;line-height:1.7}
+.sectors-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:700px){.sectors-grid{grid-template-columns:1fr}}
+.sector-card{border:1px solid var(--border);border-radius:10px;padding:32px 28px}
+.sector-card h3{font-size:16px;font-weight:700;margin-bottom:10px}
+.sector-card p{font-size:14px;color:var(--ink-muted);line-height:1.65}
+.why-section{background:#f5f4f1;padding:80px 6vw}
+.why-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:52fr 48fr;gap:80px;align-items:center}
+@media(max-width:768px){.why-inner{grid-template-columns:1fr;gap:40px}}
+.why-text-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);margin-bottom:16px}
+.why-section h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,38px);line-height:1.2;margin-bottom:24px}
+.why-section p{font-size:16px;color:var(--ink-mid);line-height:1.7;margin-bottom:20px}
+.why-section p:last-child{margin-bottom:0}
+.why-img img{width:100%;border-radius:10px;display:block}
+.contact-cta{background:#f5f4f1;padding:88px 6vw}
+.contact-cta-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:45fr 55fr;gap:72px;align-items:start}
+@media(max-width:768px){.contact-cta-inner{grid-template-columns:1fr;gap:40px}}
+.cta-copy-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.contact-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.4vw,36px);line-height:1.2;margin-bottom:20px}
+.contact-cta .cta-body{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:16px}
+.cta-bullets{list-style:none;font-size:14px;color:var(--ink-muted);line-height:2;margin-bottom:24px}
+.cta-form-placeholder{background:var(--surface);border-radius:var(--radius);padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:220px;text-align:center;gap:16px;border:1px solid var(--border)}
+.cta-form-placeholder p{font-size:14px;color:var(--ink-muted)}
+.btn-dark{display:inline-block;padding:13px 26px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px}
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+</style>
+</head>
+<body>
+
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<section style="background:#0a0a0a;padding-top:var(--nav-h)">
+  <div class="dark-hero">
+    <div class="dark-hero-text">
+      <p class="dark-kicker" data-es="Interiorismo Comercial - Barcelona" data-en="Commercial Interior Design - Barcelona">Interiorismo Comercial - Barcelona</p>
+      <h1 data-es="Barcelona no da licencias para nuevos hoteles. El crecimiento aqui pasa por renovar mejor que el de al lado." data-en="Barcelona issues no licences for new hotels. Growth here means renovating better than the competition.">Barcelona no da licencias para nuevos hoteles. El crecimiento aqui pasa por renovar mejor que el de al lado.</h1>
+      <p class="dark-hero-lead" data-es="La moratoria de licencias hoteleras lleva activa desde 2017. El 80% del stock de oficinas enfrenta obsolescencia antes de 2030. En Barcelona, crecer significa renovar - y hacerlo con un estudio que entiende los estandares de diseno mas exigentes de Espana." data-en="The hotel licence moratorium has been in place since 2017. 80% of office stock faces obsolescence before 2030. In Barcelona, growth means renovating - and doing it with a studio that understands Spain's most demanding design standards.">La moratoria de licencias hoteleras lleva activa desde 2017. El 80% del stock de oficinas enfrenta obsolescencia antes de 2030. En Barcelona, crecer significa renovar - y hacerlo con un estudio que entiende los estandares de diseno mas exigentes de Espana.</p>
+      <a href="#contacto" class="btn-gold" data-es="Reserva consulta gratuita" data-en="Book a free consultation">Reserva consulta gratuita</a>
+    </div>
+    <div class="dark-hero-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/05-interiorismo-comercial-barcelona.webp" alt="Interiorismo Comercial en Barcelona" loading="lazy" width="800" height="640">
+    </div>
+  </div>
+</section>
+
+<section style="background:#0a0a0a;padding:56px 6vw">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <p class="stat-num">&euro;712M</p>
+      <p class="stat-label" data-es="invertidos en hoteles en Barcelona en 2025, segundo mejor dato historico" data-en="invested in Barcelona hotels in 2025, second-best historical figure">invertidos en hoteles en Barcelona en 2025, segundo mejor dato historico</p>
+    </div>
+    <div class="stat-item">
+      <p class="stat-num">80%</p>
+      <p class="stat-label" data-es="del stock de oficinas en Barcelona enfrenta obsolescencia antes de 2030" data-en="of Barcelona office stock faces obsolescence before 2030">del stock de oficinas en Barcelona enfrenta obsolescencia antes de 2030</p>
+    </div>
+    <div class="stat-item">
+      <p class="stat-num">+47%</p>
+      <p class="stat-label" data-es="crecimiento en inversion en oficinas en Barcelona en 2025" data-en="growth in Barcelona office investment in 2025">crecimiento en inversion en oficinas en Barcelona en 2025</p>
+    </div>
+    <div class="stat-item">
+      <p class="stat-num">26,1M</p>
+      <p class="stat-label" data-es="visitantes en Barcelona en 2025, generando €14.041M en gasto directo" data-en="visitors to Barcelona in 2025, generating €14,041M in direct spending">visitantes en Barcelona en 2025, generando &euro;14.041M en gasto directo</p>
+    </div>
+  </div>
+</section>
+
+<section class="sectors-section">
+  <p class="section-kicker" data-es="El mercado de Barcelona" data-en="The Barcelona market">El mercado de Barcelona</p>
+  <h2 data-es="Una ciudad con los clientes mas exigentes de Espana y un pipeline de renovacion enorme." data-en="A city with Spain's most discerning clients and an enormous renovation pipeline.">Una ciudad con los clientes mas exigentes de Espana y un pipeline de renovacion enorme.</h2>
+  <p class="sectors-sub" data-es="Barcelona es una Ciudad UNESCO de Diseno. Sus clientes tienen criterio visual, conocen los referentes internacionales y detectan en segundos si un espacio esta bien ejecutado. A cambio, pagan mas por los que lo estan y los recomiendan." data-en="Barcelona is a UNESCO City of Design. Its clients have visual criteria, know international references and can tell in seconds whether a space is well executed. In return, they pay more for the ones that are and recommend them.">Barcelona es una Ciudad UNESCO de Diseno. Sus clientes tienen criterio visual, conocen los referentes internacionales y detectan en segundos si un espacio esta bien ejecutado. A cambio, pagan mas por los que lo estan y los recomiendan.</p>
+  <div class="sectors-grid">
+    <div class="sector-card">
+      <h3 data-es="Hoteles - solo renovacion" data-en="Hotels - renovation only">Hoteles - solo renovacion</h3>
+      <p data-es="Con la moratoria de licencias vigente desde 2017, toda la inversion hotelera va a renovacion de activos existentes. €712M en 2025 - el segundo mejor ano historico. Quienes no renuevan pierden posicion frente a los que si lo hacen." data-en="With the licence moratorium in place since 2017, all hotel investment goes to renovating existing assets. €712M in 2025 - the second-best historical year. Those who do not renovate lose ground against those who do.">Con la moratoria de licencias vigente desde 2017, toda la inversion hotelera va a renovacion de activos existentes. &euro;712M en 2025 - el segundo mejor ano historico. Quienes no renuevan pierden posicion frente a los que si lo hacen.</p>
+    </div>
+    <div class="sector-card">
+      <h3 data-es="Oficinas del 22@ - urgencia de renovacion" data-en="22@ offices - renovation urgency">Oficinas del 22@ - urgencia de renovacion</h3>
+      <p data-es="El 22@ concentra el 32% de toda la contratacion de oficinas. Pero el 80% del stock general se vuelve obsoleto antes de 2030. Los edificios con certificacion verde obtienen un 21,4% de premium. La ventana para renovar y capturar ese diferencial es ahora." data-en="The 22@ district accounts for 32% of all office take-up. But 80% of the general stock becomes obsolete before 2030. Green-certified buildings achieve a 21.4% premium. The window to renovate and capture that differential is now.">El 22@ concentra el 32% de toda la contratacion de oficinas. Pero el 80% del stock general se vuelve obsoleto antes de 2030. Los edificios con certificacion verde obtienen un 21,4% de premium. La ventana para renovar y capturar ese diferencial es ahora.</p>
+    </div>
+    <div class="sector-card">
+      <h3 data-es="Restaurantes - identidad visual como diferenciador" data-en="Restaurants - visual identity as differentiator">Restaurantes - identidad visual como diferenciador</h3>
+      <p data-es="Barcelona tiene una de las escenas gastronomicas mas activas de Europa con 26,1M de visitantes anuales. Los locales que ganan no solo cocinan bien - tienen un espacio que la gente fotografian, comparte y vuelve a reservar." data-en="Barcelona has one of Europe's most active gastronomic scenes with 26.1M annual visitors. The venues that win do not just cook well - they have a space that people photograph, share and rebook.">Barcelona tiene una de las escenas gastronomicas mas activas de Europa con 26,1M de visitantes anuales. Los locales que ganan no solo cocinan bien - tienen un espacio que la gente fotografian, comparte y vuelve a reservar.</p>
+    </div>
+    <div class="sector-card">
+      <h3 data-es="Retail - flagships en Passeig de Gracia" data-en="Retail - flagships on Passeig de Gracia">Retail - flagships en Passeig de Gracia</h3>
+      <p data-es="Hugo Boss abrio en 2025 una de sus mayores tiendas de Europa en Passeig de Gracia. Las rentas del lujo subiran entre un 5 y un 10% en 2025. En este contexto, invertir en el diseno del espacio es la unica forma de justificar el coste del local." data-en="Hugo Boss opened one of its largest European stores on Passeig de Gracia in 2025. Luxury rents will rise 5 to 10% in 2025. In this context, investing in space design is the only way to justify the cost of the premises.">Hugo Boss abrio en 2025 una de sus mayores tiendas de Europa en Passeig de Gracia. Las rentas del lujo subiran entre un 5 y un 10% en 2025. En este contexto, invertir en el diseno del espacio es la unica forma de justificar el coste del local.</p>
+    </div>
+  </div>
+</section>
+
+<section class="why-section">
+  <div class="why-inner">
+    <div>
+      <p class="why-text-kicker" data-es="Por que EOLOS en Barcelona" data-en="Why EOLOS in Barcelona">Por que EOLOS en Barcelona</p>
+      <h2 data-es="La estetica mediterranea no se improvisa. Se ejecuta con criterio." data-en="Mediterranean aesthetics cannot be improvised. They are executed with judgement.">La estetica mediterranea no se improvisa. Se ejecuta con criterio.</h2>
+      <p data-es="Barcelona tiene los clientes con mayor cultura visual de Espana. Un espacio que funciona en Madrid puede no funcionar aqui - el nivel de detalle que exige el mercado barcelones es diferente. Conocemos esa diferencia." data-en="Barcelona has the clients with the strongest visual culture in Spain. A space that works in Madrid may not work here - the level of detail the Barcelona market demands is different. We know that difference.">Barcelona tiene los clientes con mayor cultura visual de Espana. Un espacio que funciona en Madrid puede no funcionar aqui - el nivel de detalle que exige el mercado barcelones es diferente. Conocemos esa diferencia.</p>
+      <p data-es="Trabajamos proyectos en Barcelona desde nuestra base en Madrid con desplazamiento regular. Arquitectos colegiados, equipo de diseno con experiencia en proyectos internacionales, y la ventaja de operar en los dos mayores mercados comerciales de Espana desde un unico equipo." data-en="We work on Barcelona projects from our Madrid base with regular on-site visits. Registered architects, a design team with experience on international projects, and the advantage of operating in Spain's two largest commercial markets from a single team.">Trabajamos proyectos en Barcelona desde nuestra base en Madrid con desplazamiento regular. Arquitectos colegiados, equipo de diseno con experiencia en proyectos internacionales, y la ventaja de operar en los dos mayores mercados comerciales de Espana desde un unico equipo.</p>
+    </div>
+    <div class="why-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/selva_5.webp" alt="SELVA HOTEL" loading="lazy" width="800" height="640">
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta" id="contacto">
+  <div class="contact-cta-inner">
+    <div>
+      <p class="cta-copy-kicker" data-es="Hablemos" data-en="Let's talk">Hablemos</p>
+      <h2 data-es="Tu proyecto en Barcelona esta listo para el nivel que exige el mercado?" data-en="Is your Barcelona project ready for what the market demands?">Tu proyecto en Barcelona esta listo para el nivel que exige el mercado?</h2>
+      <p class="cta-body" data-es="Cuentanos el tipo de espacio, los metros y el resultado que buscas. Te respondemos en 24 horas." data-en="Tell us the type of space, square metres and the result you are looking for. We respond within 24 hours.">Cuentanos el tipo de espacio, los metros y el resultado que buscas. Te respondemos en 24 horas.</p>
+      <ul class="cta-bullets">
+        <li data-es="Sin compromiso" data-en="No commitment">Sin compromiso</li>
+        <li data-es="Primera consulta gratuita" data-en="First consultation free">Primera consulta gratuita</li>
+        <li data-es="Respondemos en 24h" data-en="We respond within 24h">Respondemos en 24h</li>
+      </ul>
+    </div>
+    <div class="cta-form-placeholder">
+      <p data-es="El formulario estara disponible en breve." data-en="The form will be available soon.">El formulario estara disponible en breve.</p>
+      <a href="mailto:info@eolos.es" class="btn-dark">info@eolos.es</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>

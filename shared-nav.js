@@ -14,8 +14,8 @@
   var allNavLinks=Array.prototype.slice.call(document.querySelectorAll("[data-nav-section]"));
 
   function menuLabel(open){
-    var greek=document.documentElement.lang==="el";
-    return open?(greek?"Κλείσιμο μενού":"Close menu"):(greek?"Άνοιγμα μενού":"Open menu");
+    var es=document.documentElement.lang==="es";
+    return open?(es?"Cerrar menu":"Close menu"):(es?"Abrir menu":"Open menu");
   }
 
   function setOpen(open,restoreFocus){
@@ -29,9 +29,18 @@
 
   function currentSection(){
     var path=window.location.pathname;
-    if(path.indexOf("/ypiresies/")===0)return "services";
+    if(path.indexOf("/servicios/")===0)return "servicios";
+    if(path.indexOf("/reforma-integral")===0)return "servicios";
+    if(path.indexOf("/branding-madrid")===0)return "servicios";
+    if(path.indexOf("/diseno-web-madrid")===0)return "servicios";
+    if(path.indexOf("/visualizacion")===0)return "servicios";
+    if(path.indexOf("/direccion-creativa")===0)return "servicios";
+    if(path.indexOf("/experiencia-completa")===0)return "servicios";
+    if(path.indexOf("/interiorismo-comercial")===0)return "servicios";
     if(path.indexOf("/journal/")===0)return "journal";
-    if(path.indexOf("/studio/")===0)return "studio";
+    if(path.indexOf("/estudio/")===0)return "estudio";
+    if(path.indexOf("/arquitectos/")===0)return "estudio";
+    if(path.indexOf("/proyectos/")===0)return "proyectos";
     return "";
   }
 

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Interiorismo Comercial - EOLOS DESIGN LAB</title>
+<meta name="description" content="Interiorismo comercial estrategico en Madrid, Barcelona y Marbella. Hoteles, restaurantes, oficinas y retail. Arquitectos colegiados COAM y certificacion WELL AP.">
+<link rel="canonical" href="https://eolos.es/interiorismo-comercial/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.hero-section{background:#0a0a0a;padding:calc(var(--nav-h) + 80px) 6vw 80px}
+.hero-inner{max-width:1100px;margin:0 auto;text-align:center;color:#fff}
+.hero-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:20px}
+.hero-inner h1{font-family:'DM Serif Display',serif;font-size:clamp(30px,4vw,56px);line-height:1.08;font-weight:700;margin-bottom:24px;color:#fff}
+.hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;max-width:720px;margin:0 auto 40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.cities-section{padding:80px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);text-align:center;margin-bottom:16px}
+.cities-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,44px);text-align:center;margin-bottom:16px;max-width:760px;margin-left:auto;margin-right:auto}
+.cities-sub{text-align:center;color:var(--ink-mid);font-size:clamp(14px,1.2vw,17px);max-width:680px;margin:0 auto 64px;line-height:1.7}
+.cities-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+@media(max-width:700px){.cities-grid{grid-template-columns:1fr}}
+.city-card{padding:48px 36px;border-right:1px solid var(--border);text-decoration:none;color:var(--ink);display:block;transition:background .2s}
+.city-card:last-child{border-right:none}
+@media(max-width:700px){.city-card{border-right:none;border-bottom:1px solid var(--border)}}
+@media(max-width:700px){.city-card:last-child{border-bottom:none}}
+.city-card:hover{background:#f5f4f1}
+.city-tag{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.city-card h3{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.2vw,32px);margin-bottom:12px;line-height:1.1}
+.city-card p{font-size:14px;color:var(--ink-muted);line-height:1.65;margin-bottom:24px}
+.city-link{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:1px;color:#c8a96e;text-transform:uppercase}
+.what-section{background:#f5f4f1;padding:80px 6vw}
+.what-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+@media(max-width:768px){.what-inner{grid-template-columns:1fr;gap:40px}}
+.what-text h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,40px);margin-bottom:20px}
+.what-text p{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:16px}
+.sectors-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.sector-item{padding:20px;border:1px solid var(--border);border-radius:8px;background:var(--surface)}
+.sector-item h4{font-size:14px;font-weight:700;margin-bottom:6px}
+.sector-item p{font-size:13px;color:var(--ink-muted);line-height:1.5}
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+</style>
+</head>
+<body>
+
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<section style="background:#0a0a0a;padding-top:var(--nav-h)">
+  <div class="hero-section">
+    <div class="hero-inner">
+      <p class="hero-kicker" data-es="Interiorismo Comercial" data-en="Commercial Interior Design">Interiorismo Comercial</p>
+      <h1 data-es="Espacios que convierten clientes, retienen talento y justifican precios mas altos." data-en="Spaces that convert clients, retain talent and justify higher prices.">Espacios que convierten clientes, retienen talento y justifican precios mas altos.</h1>
+      <p class="hero-lead" data-es="Disenamos hoteles, restaurantes, oficinas, clinicas y espacios retail con el mismo equipo, desde el concepto hasta la entrega. Arquitectos colegiados COAM con certificacion WELL AP." data-en="We design hotels, restaurants, offices, clinics and retail spaces with the same team, from concept to delivery. COAM registered architects with WELL AP certification.">Disenamos hoteles, restaurantes, oficinas, clinicas y espacios retail con el mismo equipo, desde el concepto hasta la entrega. Arquitectos colegiados COAM con certificacion WELL AP.</p>
+      <a href="/contacto/" class="btn-gold" data-es="Reservar consulta gratuita" data-en="Book a free consultation">Reservar consulta gratuita</a>
+    </div>
+  </div>
+</section>
+
+<section class="cities-section">
+  <p class="section-kicker" data-es="Donde trabajamos" data-en="Where we work">Donde trabajamos</p>
+  <h2 data-es="Madrid, Barcelona y Marbella." data-en="Madrid, Barcelona and Marbella.">Madrid, Barcelona y Marbella.</h2>
+  <p class="cities-sub" data-es="Tres mercados, un mismo equipo. Operamos en los tres mercados comerciales mas exigentes de Espana." data-en="Three markets, one team. We operate in the three most demanding commercial markets in Spain.">Tres mercados, un mismo equipo. Operamos en los tres mercados comerciales mas exigentes de Espana.</p>
+  <div class="cities-grid">
+    <a href="/interiorismo-comercial/madrid/" class="city-card">
+      <p class="city-tag" data-es="Madrid" data-en="Madrid">Madrid</p>
+      <h3 data-es="Interiorismo comercial en Madrid" data-en="Commercial interior design in Madrid">Interiorismo comercial en Madrid</h3>
+      <p data-es="2a ciudad mas atractiva de Europa para inversion inmobiliaria. 550.000 m2 de oficinas contratadas en 2025. 20 hoteles nuevos previstos hasta 2028." data-en="2nd most attractive city in Europe for real estate investment. 550,000 m2 of offices contracted in 2025. 20 new hotels planned through 2028.">2a ciudad mas atractiva de Europa para inversion inmobiliaria. 550.000 m2 de oficinas contratadas en 2025. 20 hoteles nuevos previstos hasta 2028.</p>
+      <span class="city-link" data-es="Ver Madrid" data-en="See Madrid">Ver Madrid &rarr;</span>
+    </a>
+    <a href="/interiorismo-comercial/barcelona/" class="city-card">
+      <p class="city-tag" data-es="Barcelona" data-en="Barcelona">Barcelona</p>
+      <h3 data-es="Interiorismo comercial en Barcelona" data-en="Commercial interior design in Barcelona">Interiorismo comercial en Barcelona</h3>
+      <p data-es="Ciudad UNESCO de Diseno. 712M en inversion hotelera en 2025. El 80% del stock de oficinas enfrenta obsolescencia antes de 2030. Mercado de renovacion, no de nuevas licencias." data-en="UNESCO Design City. 712M in hotel investment in 2025. 80% of office stock faces obsolescence before 2030. A renovation market, not new licences.">Ciudad UNESCO de Diseno. 712M en inversion hotelera en 2025. El 80% del stock de oficinas enfrenta obsolescencia antes de 2030. Mercado de renovacion, no de nuevas licencias.</p>
+      <span class="city-link" data-es="Ver Barcelona" data-en="See Barcelona">Ver Barcelona &rarr;</span>
+    </a>
+    <a href="/interiorismo-comercial/marbella/" class="city-card">
+      <p class="city-tag" data-es="Marbella" data-en="Marbella">Marbella</p>
+      <h3 data-es="Interiorismo comercial en Marbella" data-en="Commercial interior design in Marbella">Interiorismo comercial en Marbella</h3>
+      <p data-es="ADR hotelero medio de 395 euros - el mas alto de Espana. 300M+ en renovaciones desde 2022. El cliente internacional mas exigente del pais." data-en="Average hotel ADR of 395 euros - the highest in Spain. 300M+ in renovations since 2022. The most demanding international client in the country.">ADR hotelero medio de 395 euros - el mas alto de Espana. 300M+ en renovaciones desde 2022. El cliente internacional mas exigente del pais.</p>
+      <span class="city-link" data-es="Ver Marbella" data-en="See Marbella">Ver Marbella &rarr;</span>
+    </a>
+  </div>
+</section>
+
+<section class="what-section">
+  <div class="what-inner">
+    <div class="what-text">
+      <h2 data-es="Un equipo, todos los sectores." data-en="One team, all sectors.">Un equipo, todos los sectores.</h2>
+      <p data-es="No subcontratamos la parte que importa. Desde el primer brief hasta la entrega, el mismo equipo lleva el proyecto: arquitectos, disenadores y coordinadores con experiencia en proyectos comerciales." data-en="We do not subcontract the part that matters. From the first brief to delivery, the same team leads the project: architects, designers and coordinators with commercial project experience.">No subcontratamos la parte que importa. Desde el primer brief hasta la entrega, el mismo equipo lleva el proyecto: arquitectos, disenadores y coordinadores con experiencia en proyectos comerciales.</p>
+      <p data-es="Arquitectos colegiados COAM. Certificacion WELL AP para proyectos de salud y bienestar. Oficina en Madrid con presencia regular en Barcelona y Marbella." data-en="COAM registered architects. WELL AP certification for health and wellbeing projects. Office in Madrid with regular presence in Barcelona and Marbella.">Arquitectos colegiados COAM. Certificacion WELL AP para proyectos de salud y bienestar. Oficina en Madrid con presencia regular en Barcelona y Marbella.</p>
+    </div>
+    <div class="sectors-grid">
+      <div class="sector-item">
+        <h4 data-es="Hoteles y alojamiento" data-en="Hotels and accommodation">Hoteles y alojamiento</h4>
+        <p data-es="Lobby, habitaciones, F&amp;B y zonas comunes." data-en="Lobby, rooms, F&amp;B and common areas.">Lobby, habitaciones, F&amp;B y zonas comunes.</p>
+      </div>
+      <div class="sector-item">
+        <h4 data-es="Restaurantes y bares" data-en="Restaurants and bars">Restaurantes y bares</h4>
+        <p data-es="Diseno integral desde concepto hasta apertura." data-en="Full design from concept to opening.">Diseno integral desde concepto hasta apertura.</p>
+      </div>
+      <div class="sector-item">
+        <h4 data-es="Oficinas y coworking" data-en="Offices and coworking">Oficinas y coworking</h4>
+        <p data-es="Espacios que retienen talento y reflejan marca." data-en="Spaces that retain talent and reflect brand.">Espacios que retienen talento y reflejan marca.</p>
+      </div>
+      <div class="sector-item">
+        <h4 data-es="Retail y flagships" data-en="Retail and flagships">Retail y flagships</h4>
+        <p data-es="Tiendas que justifican el precio del producto." data-en="Stores that justify the product price.">Tiendas que justifican el precio del producto.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
+</footer>
+
+<!-- GA tag will be added when analytics is configured -->
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+})();
+</script>
+</body>
+</html>
