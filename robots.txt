@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /
+Disallow: /
 
+# Preview mode: site is live for review but not indexable.
+# To launch: remove the Disallow line above and restore "Allow: /".
 Sitemap: https://eolos.es/sitemap.xml
