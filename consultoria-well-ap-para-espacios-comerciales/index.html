@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Consultoria WELL AP para Espacios Comerciales - EOLOS DESIGN LAB</title>
+<meta name="description" content="Consultoria WELL AP en Madrid. Tratamos el bienestar como parte de la estrategia del negocio: aire, luz y acustica que cambian el comportamiento del cliente y del equipo.">
+<link rel="canonical" href="https://eolos.es/consultoria-well-ap-para-espacios-comerciales/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/shared-nav.css?v=3">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GKD0CS2FVC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-GKD0CS2FVC');
+</script>
+<style>
+:root{
+  --accent:oklch(0.72 0.13 48);
+  --accent-dark:oklch(0.55 0.12 48);
+  --bg:#faf9f7;
+  --surface:#ffffff;
+  --ink:#111111;
+  --ink-mid:#444444;
+  --ink-muted:#888888;
+  --border:rgba(0,0,0,0.09);
+  --radius:16px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+.dark-hero-wrap{background:#0a0a0a;padding-top:var(--nav-h)}
+.dark-hero{padding:80px 6vw 80px;display:grid;grid-template-columns:58fr 42fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+@media(max-width:800px){.dark-hero{grid-template-columns:1fr;padding-top:48px}}
+.dark-hero-text{color:#fff}
+.dark-kicker{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.dark-hero h1{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,52px);line-height:1.08;font-weight:400;margin-bottom:24px;color:#fff}
+.dark-hero-lead{font-size:clamp(15px,1.3vw,18px);color:#bbbbbb;line-height:1.65;margin-bottom:40px}
+.btn-gold{display:inline-block;padding:13px 26px;background:#c8a96e;color:#000;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:opacity .2s}
+.btn-gold:hover{opacity:.85}
+.dark-hero-img img{width:100%;border-radius:10px;display:block}
+@media(max-width:800px){.dark-hero-img{order:-1}}
+.problem-section{padding:88px 6vw;max-width:1200px;margin:0 auto}
+.section-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--ink-muted);margin-bottom:16px}
+.problem-section h2{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,42px);margin-bottom:20px;max-width:820px}
+.problem-section p{font-size:15px;color:var(--ink-mid);line-height:1.75;max-width:720px;margin-bottom:14px}
+.problem-section a{color:var(--accent-dark);text-decoration:none}
+.problem-section a:hover{text-decoration:underline}
+.issues-section{padding:0 6vw 88px;max-width:1200px;margin:0 auto}
+.issues-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media(max-width:640px){.issues-grid{grid-template-columns:1fr}}
+.issue-card{border:1px solid var(--border);border-radius:var(--radius);padding:32px 28px;background:var(--surface)}
+.issue-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--ink-muted);margin-bottom:12px}
+.issue-card h3{font-size:16px;font-weight:700;margin-bottom:10px}
+.issue-card p{font-size:14px;color:var(--ink-muted);line-height:1.65}
+.issue-card a{color:var(--accent-dark);text-decoration:none}
+.issue-card a:hover{text-decoration:underline}
+.process-section{background:#f5f4f1;padding:88px 6vw}
+.process-inner{max-width:1200px;margin:0 auto}
+.process-section h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,40px);margin-bottom:48px}
+.steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:900px){.steps-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.steps-grid{grid-template-columns:1fr}}
+.step-item{border-left:1px solid rgba(0,0,0,0.09);padding:32px 24px}
+.step-item:first-child{border-left:none}
+@media(max-width:900px){.step-item:nth-child(odd){border-left:none}}
+.step-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:2px;color:#c8a96e;margin-bottom:14px}
+.step-item h3{font-size:15px;font-weight:700;margin-bottom:8px}
+.step-item p{font-size:13px;color:var(--ink-muted);line-height:1.65}
+.stats-strip{background:#111111;padding:64px 6vw}
+.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+@media(max-width:700px){.stats-inner{grid-template-columns:repeat(2,1fr);gap:32px 0}}
+.stat{text-align:center;border-right:1px solid rgba(255,255,255,0.1);padding:0 20px}
+.stat:last-child{border-right:none}
+@media(max-width:700px){.stat:nth-child(even){border-right:none}}
+.stat-num{font-family:'DM Serif Display',serif;font-size:clamp(24px,3vw,42px);color:#fff;margin-bottom:8px}
+.stat-label{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#888888;line-height:1.5}
+.contact-cta{background:#f5f4f1;padding:88px 6vw;border-top:1px solid var(--border)}
+.contact-cta-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:45fr 55fr;gap:72px;align-items:start}
+@media(max-width:768px){.contact-cta-inner{grid-template-columns:1fr;gap:40px}}
+.cta-copy-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#c8a96e;margin-bottom:16px}
+.contact-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.4vw,36px);line-height:1.2;margin-bottom:20px}
+.contact-cta .cta-body{font-size:15px;color:var(--ink-mid);line-height:1.7;margin-bottom:24px}
+.cta-form-box{background:var(--surface);border-radius:var(--radius);padding:36px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:200px;text-align:center;gap:16px;border:1px solid var(--border)}
+.cta-form-box p{font-size:14px;color:var(--ink-muted)}
+.btn-dark{display:inline-block;padding:13px 26px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;text-decoration:none;border-radius:4px;transition:background .2s}
+.btn-dark:hover{background:#c8a96e;color:#000}
+footer{border-top:1px solid var(--border);padding:24px 6vw;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}
+footer a{color:inherit;text-decoration:none}
+footer a:hover{color:var(--ink)}
+.chrome{background:#0a0a0a!important}
+.chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
+.chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
+.chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+.cookie-banner{position:fixed;bottom:24px;left:24px;right:24px;max-width:520px;z-index:300;background:var(--ink);color:#fff;border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;box-shadow:0 8px 32px rgba(26,25,23,.3)}
+.cookie-banner[hidden]{display:none}
+.cookie-copy{display:flex;align-items:center;gap:12px;font-size:13px}
+.cookie-title{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.10em;text-transform:uppercase}
+.cookie-link{color:#c8a96e;text-decoration:underline}
+.cookie-actions{display:flex;gap:8px;flex-shrink:0}
+.cookie-btn{padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.25);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#fff;background:none;cursor:pointer;transition:background 180ms}
+.cookie-btn:hover{background:rgba(255,255,255,.12)}
+.cookie-btn.accept{background:#c8a96e;border-color:#c8a96e;color:#000}
+@media(max-width:560px){.cookie-banner{flex-direction:column;align-items:flex-start;left:16px;right:16px;bottom:16px}}
+</style>
+<style>
+.pillars-section{padding:88px 6vw;max-width:1200px;margin:0 auto}
+.pillars-section .section-kicker{text-align:center}
+.pillars-section h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,40px);text-align:center;margin-bottom:16px}
+.pillars-lead{text-align:center;color:var(--ink-mid);font-size:15px;max-width:680px;margin:0 auto 56px;line-height:1.7}
+.pillars-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media(max-width:800px){.pillars-grid{grid-template-columns:1fr}}
+.pillar-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:36px 30px}
+.pillar-num{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:2px;color:#c8a96e;margin-bottom:16px}
+.pillar-card h3{font-family:'DM Serif Display',serif;font-size:clamp(18px,1.8vw,22px);margin-bottom:12px}
+.pillar-card p{font-size:14px;color:var(--ink-muted);line-height:1.7}
+.apps-section{background:#f5f4f1;padding:88px 6vw}
+.apps-inner{max-width:1200px;margin:0 auto}
+.apps-inner h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,38px);text-align:center;margin-bottom:48px}
+.apps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.apps-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.apps-grid{grid-template-columns:1fr}}
+.app-item{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:24px 20px}
+.app-item h4{font-size:14px;font-weight:700;margin-bottom:6px}
+.app-item p{font-size:13px;color:var(--ink-muted);line-height:1.55}
+.dark-band{background:#0a0a0a;padding:88px 6vw}
+.dark-band-inner{max-width:1200px;margin:0 auto}
+.dark-band .section-kicker{color:#888}
+.dark-band h2{font-family:'DM Serif Display',serif;font-size:clamp(22px,2.8vw,38px);color:#fff;margin-bottom:48px}
+.dark-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+@media(max-width:900px){.dark-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.dark-grid{grid-template-columns:1fr}}
+.dark-item{border-left:1px solid rgba(255,255,255,0.1);padding:0 24px}
+.dark-item:first-child{border-left:none}
+@media(max-width:900px){.dark-item:nth-child(odd){border-left:none;padding-top:24px}.dark-item:nth-child(even){padding-top:24px}}
+.dark-item h3{font-size:15px;font-weight:700;color:#fff;margin-bottom:10px}
+.dark-item p{font-size:13px;color:#888;line-height:1.6}
+</style>
+</head>
+<body>
+
+<header class="chrome" id="chrome">
+  <nav class="nav-inner">
+    <a href="/" class="logo" aria-label="EOLOS inicio">
+      <svg width="88" height="20" viewBox="0 0 88 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <text x="0" y="16" font-family="'JetBrains Mono',monospace" font-size="15" font-weight="700" fill="currentColor" letter-spacing="2">EOLOS</text>
+      </svg>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
+      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
+      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
+      <li><a href="/journal/" data-section="journal">Journal</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Idioma">
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span class="menu-toggle-lines"></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
+  <nav class="mobile-nav">
+    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+  </nav>
+</div>
+
+<div class="dark-hero-wrap">
+  <div class="dark-hero">
+    <div class="dark-hero-text">
+      <p class="dark-kicker" data-es="WELL AP - Bienestar - Rendimiento Comercial" data-en="WELL AP - Wellbeing - Commercial Performance">WELL AP - Bienestar - Rendimiento Comercial</p>
+      <h1 data-es="Espacios que se sienten mejor, funcionan mejor y venden mejor." data-en="Spaces that feel better, work better and sell better.">Espacios que se sienten mejor, funcionan mejor y venden mejor.</h1>
+      <p class="dark-hero-lead" data-es="En EOLOS tratamos el bienestar como parte de la estrategia del negocio. La competencia WELL AP de nuestro equipo guia decisiones de diseno concretas sobre aire, luz y acustica que afectan el comportamiento de quien usa el espacio." data-en="At EOLOS we treat wellbeing as part of the business strategy. Our team WELL AP competence guides concrete design decisions on air, light and acoustics that affect the behaviour of whoever uses the space.">En EOLOS tratamos el bienestar como parte de la estrategia del negocio. La competencia WELL AP de nuestro equipo guia decisiones de diseno concretas sobre aire, luz y acustica que afectan el comportamiento de quien usa el espacio.</p>
+      <a href="#contacto" class="btn-gold" data-es="Reservar consulta gratuita" data-en="Book a free consultation">Reservar consulta gratuita</a>
+    </div>
+    <div class="dark-hero-img">
+      <img src="https://eolos.es/wp-content/uploads/2026/06/06-consultoria-well-ap-para-espacios-comerciales.webp" alt="Consultoria WELL AP para espacios comerciales EOLOS" loading="eager" width="800" height="640">
+    </div>
+  </div>
+</div>
+
+<div class="problem-section">
+  <p class="section-kicker" data-es="Por que importa" data-en="Why it matters">Por que importa</p>
+  <h2 data-es="El bienestar no es blando. Cambia el comportamiento." data-en="Wellbeing is not soft. It changes behaviour.">El bienestar no es blando. Cambia el comportamiento.</h2>
+  <p data-es="Un restaurante con mala acustica pierde permanencia. Una oficina con mala luz pierde foco. Una clinica con mal aire genera ansiedad. El bienestar del espacio no es una capa estetica: es una palanca directa sobre como se comporta la gente dentro de el." data-en="A restaurant with poor acoustics loses dwell time. An office with poor light loses focus. A clinic with poor air creates anxiety. Spatial wellbeing is not an aesthetic layer: it is a direct lever on how people behave inside it.">Un restaurante con mala acustica pierde permanencia. Una oficina con mala luz pierde foco. Una clinica con mal aire genera ansiedad. El bienestar del espacio no es una capa estetica: es una palanca directa sobre como se comporta la gente dentro de el.</p>
+</div>
+
+<section class="pillars-section">
+  <p class="section-kicker" data-es="Tres decisiones que cambian el espacio" data-en="Three decisions that change the space">Tres decisiones que cambian el espacio</p>
+  <h2 data-es="Aire, luz y acustica, disenados con criterio." data-en="Air, light and acoustics, designed with criteria.">Aire, luz y acustica, disenados con criterio.</h2>
+  <div class="pillars-grid">
+    <div class="pillar-card">
+      <p class="pillar-num">01</p>
+      <h3 data-es="Aire y clima" data-en="Air and climate">Aire y clima</h3>
+      <p data-es="Ventilacion, calidad del aire y confort termico disenados para que el espacio se sienta bien sin que nadie sepa por que. El aire condiciona la permanencia y la concentracion." data-en="Ventilation, air quality and thermal comfort designed so the space feels right without anyone knowing why. Air conditions dwell time and concentration.">Ventilacion, calidad del aire y confort termico disenados para que el espacio se sienta bien sin que nadie sepa por que. El aire condiciona la permanencia y la concentracion.</p>
+    </div>
+    <div class="pillar-card">
+      <p class="pillar-num">02</p>
+      <h3 data-es="Luz y energia" data-en="Light and energy">Luz y energia</h3>
+      <p data-es="La luz correcta cambia el estado de animo, el ritmo y la percepcion del espacio. Disenamos luz natural y artificial como una decision estrategica, no decorativa." data-en="The right light changes mood, rhythm and the perception of space. We design natural and artificial light as a strategic decision, not a decorative one.">La luz correcta cambia el estado de animo, el ritmo y la percepcion del espacio. Disenamos luz natural y artificial como una decision estrategica, no decorativa.</p>
+    </div>
+    <div class="pillar-card">
+      <p class="pillar-num">03</p>
+      <h3 data-es="Acustica y ritmo" data-en="Acoustics and rhythm">Acustica y ritmo</h3>
+      <p data-es="El sonido decide cuanto tiempo aguanta la gente en un espacio. Controlamos la acustica para alargar la permanencia y reducir la fatiga en oficinas, restaurantes y clinicas." data-en="Sound decides how long people last in a space. We control acoustics to extend dwell time and reduce fatigue in offices, restaurants and clinics.">El sonido decide cuanto tiempo aguanta la gente en un espacio. Controlamos la acustica para alargar la permanencia y reducir la fatiga en oficinas, restaurantes y clinicas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="apps-section">
+  <div class="apps-inner">
+    <h2 data-es="Donde se aplica" data-en="Where it applies">Donde se aplica</h2>
+    <div class="apps-grid">
+      <div class="app-item">
+        <h4 data-es="Oficinas" data-en="Offices">Oficinas</h4>
+        <p data-es="Foco, confort y retencion del equipo." data-en="Focus, comfort and team retention.">Foco, confort y retencion del equipo.</p>
+      </div>
+      <div class="app-item">
+        <h4 data-es="Clinicas y centros esteticos" data-en="Clinics and aesthetic centres">Clinicas y centros esteticos</h4>
+        <p data-es="Menos ansiedad, mas confianza del paciente." data-en="Less anxiety, more patient trust.">Menos ansiedad, mas confianza del paciente.</p>
+      </div>
+      <div class="app-item">
+        <h4 data-es="Restaurantes y hoteles" data-en="Restaurants and hotels">Restaurantes y hoteles</h4>
+        <p data-es="Permanencia y experiencia del huesped." data-en="Dwell time and guest experience.">Permanencia y experiencia del huesped.</p>
+      </div>
+      <div class="app-item">
+        <h4 data-es="Retail y wellness" data-en="Retail and wellness">Retail y wellness</h4>
+        <p data-es="Tiempo en tienda y percepcion premium." data-en="Time in store and premium perception.">Tiempo en tienda y percepcion premium.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta" id="contacto">
+  <div class="contact-cta-inner">
+    <div>
+      <p class="cta-copy-kicker" data-es="Hablemos" data-en="Let's talk">Hablemos</p>
+      <h2 data-es="Las decisiones correctas al inicio hacen el proyecto mas fuerte." data-en="The right decisions at the start make the project stronger.">Las decisiones correctas al inicio hacen el proyecto mas fuerte.</h2>
+      <p class="cta-body" data-es="Integramos el criterio WELL AP desde el concepto, no como un anadido final. Cuentanos el proyecto y te decimos donde el bienestar cambia el resultado comercial." data-en="We integrate WELL AP criteria from the concept, not as a final add-on. Tell us the project and we tell you where wellbeing changes the commercial result.">Integramos el criterio WELL AP desde el concepto, no como un anadido final. Cuentanos el proyecto y te decimos donde el bienestar cambia el resultado comercial.</p>
+    </div>
+    <div class="cta-form-box">
+      <p data-es="Escribe directamente a nuestro equipo:" data-en="Write directly to our team:">Escribe directamente a nuestro equipo:</p>
+      <a href="mailto:info@eolos.es" class="btn-dark">info@eolos.es</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>EOLOS DESIGN LAB &copy; 2025</span>
+  <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
+</footer>
+
+<aside class="cookie-banner" id="cookie-banner" role="alert" hidden>
+  <div class="cookie-copy">
+    <span class="cookie-title">Cookies</span>
+    <span data-es="Usamos cookies de analisis y preferencias." data-en="We use analytics and preference cookies.">Usamos cookies de analisis y preferencias.</span>
+    <a href="/legal/" class="cookie-link" data-es="Mas info" data-en="Learn more">Mas info</a>
+  </div>
+  <div class="cookie-actions">
+    <button class="cookie-btn" type="button" data-ck="declined" data-es="Rechazar" data-en="Decline">Rechazar</button>
+    <button class="cookie-btn accept" type="button" data-ck="accepted" data-es="Aceptar" data-en="Accept">Aceptar</button>
+  </div>
+</aside>
+
+<script defer src="/shared-nav.js"></script>
+<script>
+(function(){
+  var LANG_KEY='eolos-lang';
+  function storedLang(){try{return localStorage.getItem(LANG_KEY)||'es';}catch(e){return'es';}}
+  function applyLang(lang){
+    document.documentElement.lang=lang==='es'?'es':'en';
+    document.querySelectorAll('[data-es]').forEach(function(el){
+      var val=lang==='es'?el.getAttribute('data-es'):el.getAttribute('data-en');
+      if(!val)return;
+      if(val.indexOf('<')!==-1){el.innerHTML=val;}else{el.textContent=val;}
+    });
+    document.querySelectorAll('.lang-btn').forEach(function(btn){
+      btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');
+    });
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var l=btn.getAttribute('data-lang');
+      try{localStorage.setItem(LANG_KEY,l);}catch(e){}
+      applyLang(l);
+    });
+  });
+  applyLang(storedLang());
+  var ck=document.getElementById("cookie-banner");
+  if(ck&&!localStorage.getItem("eolos-cookies"))ck.removeAttribute("hidden");
+  document.querySelectorAll("[data-ck]").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      localStorage.setItem("eolos-cookies",btn.dataset.ck);
+      var cb=document.getElementById("cookie-banner");
+      if(cb)cb.hidden=true;
+    });
+  });
+})();
+</script>
+</body>
+</html>
