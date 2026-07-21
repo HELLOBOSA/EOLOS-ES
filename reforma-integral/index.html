@@ -197,7 +197,14 @@ footer a:hover{color:var(--ink)}
   </span>
 </footer>
 
-<!-- GA tag will be added when analytics is configured -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GKD0CS2FVC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-GKD0CS2FVC');
+</script>
 
 <script defer src="/shared-nav.js"></script>
 <script>
