@@ -81,6 +81,16 @@ footer a:hover{color:var(--ink)}
 .chrome .logo,.chrome .nav-links a,.chrome .lang-btn,.chrome .nav-cta{color:#fff!important}
 .chrome .nav-links a:hover,.chrome .nav-cta:hover{color:#c8a96e!important}
 .chrome .menu-toggle-lines,.chrome .menu-toggle-lines::before,.chrome .menu-toggle-lines::after{background:#fff!important}
+.cookie-banner{position:fixed;bottom:24px;left:24px;right:24px;max-width:520px;z-index:300;background:var(--ink);color:#fff;border-radius:12px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;box-shadow:0 8px 32px rgba(26,25,23,.3)}
+.cookie-banner[hidden]{display:none}
+.cookie-copy{display:flex;align-items:center;gap:12px;font-size:13px}
+.cookie-title{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.10em;text-transform:uppercase}
+.cookie-link{color:#c8a96e;text-decoration:underline}
+.cookie-actions{display:flex;gap:8px;flex-shrink:0}
+.cookie-btn{padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.25);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#fff;background:none;cursor:pointer;transition:background 180ms}
+.cookie-btn:hover{background:rgba(255,255,255,.12)}
+.cookie-btn.accept{background:#c8a96e;border-color:#c8a96e;color:#000}
+@media(max-width:560px){.cookie-banner{flex-direction:column;align-items:flex-start;left:16px;right:16px;bottom:16px}}
 </style>
 </head>
 <body>
@@ -206,6 +216,18 @@ footer a:hover{color:var(--ink)}
   <span><a href="/legal/">Aviso legal</a> &nbsp;|&nbsp; <a href="https://wolfblanc.es" target="_blank" rel="noopener">wolfblanc.es</a></span>
 </footer>
 
+<aside class="cookie-banner" id="cookie-banner" role="alert" hidden>
+  <div class="cookie-copy">
+    <span class="cookie-title">Cookies</span>
+    <span data-es="Usamos cookies de analisis y preferencias." data-en="We use analytics and preference cookies.">Usamos cookies de analisis y preferencias.</span>
+    <a href="/legal/" class="cookie-link" data-es="Mas info" data-en="Learn more">Mas info</a>
+  </div>
+  <div class="cookie-actions">
+    <button class="cookie-btn" type="button" data-ck="declined" data-es="Rechazar" data-en="Decline">Rechazar</button>
+    <button class="cookie-btn accept" type="button" data-ck="accepted" data-es="Aceptar" data-en="Accept">Aceptar</button>
+  </div>
+</aside>
+
 <script defer src="/shared-nav.js"></script>
 <script>
 (function(){
@@ -230,6 +252,19 @@ footer a:hover{color:var(--ink)}
     });
   });
   applyLang(storedLang());
+})();
+</script>
+<script>
+(function(){
+  var ck=document.getElementById("cookie-banner");
+  if(ck&&!localStorage.getItem("eolos-cookies"))ck.removeAttribute("hidden");
+  document.querySelectorAll("[data-ck]").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      localStorage.setItem("eolos-cookies",btn.dataset.ck);
+      var cb=document.getElementById("cookie-banner");
+      if(cb)cb.hidden=true;
+    });
+  });
 })();
 </script>
 </body>
