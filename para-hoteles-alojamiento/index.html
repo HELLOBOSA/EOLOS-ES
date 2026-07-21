@@ -135,10 +135,11 @@ footer a:hover{color:var(--ink)}
       </svg>
     </a>
     <ul class="nav-links" role="list">
-      <li><a href="/estudio/" data-section="estudio">Estudio</a></li>
-      <li><a href="/servicios/" data-section="servicios" aria-current="page">Servicios</a></li>
-      <li><a href="/proyectos/" data-section="proyectos">Proyectos</a></li>
-      <li><a href="/journal/" data-section="journal">Journal</a></li>
+      <li><a href="/servicios/" data-nav-section="servicios" data-es="Que Hacemos" data-en="What We Do">Que Hacemos</a></li>
+      <li><a href="/a-quien-ayudamos/" data-nav-section="para-quien" data-es="Para Quien" data-en="Who We Help">Para Quien</a></li>
+      <li><a href="/proyectos/" data-nav-section="proyectos" data-es="Casos de exito" data-en="Case Studies">Casos de exito</a></li>
+      <li><a href="/estudio/" data-nav-section="estudio" data-es="Estudio" data-en="Studio">Estudio</a></li>
+      <li><a href="/journal/" data-nav-section="journal" data-es="Blog" data-en="Blog">Blog</a></li>
     </ul>
     <div class="nav-actions">
       <div class="lang-toggle" role="group" aria-label="Idioma">
@@ -146,7 +147,7 @@ footer a:hover{color:var(--ink)}
         <button class="lang-btn" data-lang="en">EN</button>
       </div>
       <a href="/contacto/" class="nav-cta" data-es="Contacto" data-en="Contact">Contacto</a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
         <span class="menu-toggle-lines"></span>
       </button>
     </div>
@@ -155,11 +156,12 @@ footer a:hover{color:var(--ink)}
 
 <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegacion">
   <nav class="mobile-nav">
-    <a href="/estudio/" class="mobile-link"><span class="menu-index">01</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
-    <a href="/servicios/" class="mobile-link"><span class="menu-index">02</span><span data-es="Servicios" data-en="Services">Servicios</span><span class="menu-arrow">&#8594;</span></a>
-    <a href="/proyectos/" class="mobile-link"><span class="menu-index">03</span><span data-es="Proyectos" data-en="Projects">Proyectos</span><span class="menu-arrow">&#8594;</span></a>
-    <a href="/journal/" class="mobile-link"><span class="menu-index">04</span><span>Journal</span><span class="menu-arrow">&#8594;</span></a>
-    <a href="/contacto/" class="mobile-link"><span class="menu-index">05</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/servicios/" class="mobile-link" data-nav-section="servicios"><span class="menu-index">01</span><span data-es="Que Hacemos" data-en="What We Do">Que Hacemos</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/a-quien-ayudamos/" class="mobile-link" data-nav-section="para-quien"><span class="menu-index">02</span><span data-es="Para Quien" data-en="Who We Help">Para Quien</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/proyectos/" class="mobile-link" data-nav-section="proyectos"><span class="menu-index">03</span><span data-es="Casos de exito" data-en="Case Studies">Casos de exito</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/estudio/" class="mobile-link" data-nav-section="estudio"><span class="menu-index">04</span><span data-es="Estudio" data-en="Studio">Estudio</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/journal/" class="mobile-link" data-nav-section="journal"><span class="menu-index">05</span><span data-es="Blog" data-en="Blog">Blog</span><span class="menu-arrow">&#8594;</span></a>
+    <a href="/contacto/" class="mobile-link" data-nav-section="contacto"><span class="menu-index">06</span><span data-es="Contacto" data-en="Contact">Contacto</span><span class="menu-arrow">&#8594;</span></a>
   </nav>
 </div>
 

@@ -29,6 +29,7 @@
 
   function currentSection(){
     var path=window.location.pathname;
+    // Que Hacemos hub (/servicios/) and every service page
     if(path.indexOf("/servicios/")===0)return "servicios";
     if(path.indexOf("/reforma-integral")===0)return "servicios";
     if(path.indexOf("/branding-madrid")===0)return "servicios";
@@ -37,9 +38,24 @@
     if(path.indexOf("/direccion-creativa")===0)return "servicios";
     if(path.indexOf("/experiencia-completa")===0)return "servicios";
     if(path.indexOf("/interiorismo-comercial")===0)return "servicios";
+    if(path.indexOf("/staging-digital")===0)return "servicios";
+    if(path.indexOf("/consultoria-well-ap")===0)return "servicios";
+    if(path.indexOf("/due-diligence-tecnica")===0)return "servicios";
+    if(path.indexOf("/workplace-strategy")===0)return "servicios";
+    if(path.indexOf("/paquetes-interiorismo")===0)return "servicios";
+    // Para Quien hub (/a-quien-ayudamos/) and every sector page
+    if(path.indexOf("/a-quien-ayudamos")===0)return "para-quien";
+    if(path.indexOf("/para-")===0)return "para-quien";
+    if(path.indexOf("/clientes-internacionales")===0)return "para-quien";
+    if(path.indexOf("/nuevo-negocio")===0)return "para-quien";
+    // Blog
     if(path.indexOf("/journal/")===0)return "journal";
+    if(path.indexOf("/blog/")===0)return "journal";
+    // Estudio
     if(path.indexOf("/estudio/")===0)return "estudio";
     if(path.indexOf("/arquitectos/")===0)return "estudio";
+    if(path.indexOf("/profesionales/")===0)return "estudio";
+    // Casos de exito
     if(path.indexOf("/proyectos/")===0)return "proyectos";
     return "";
   }
